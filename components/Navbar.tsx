@@ -11,7 +11,7 @@ import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
   return (
-    <header className="wrapper py-4 flex justify-between items-center border-b">
+    <header className="wrapper py-4 flex justify-between items-center">
       <Link href={"/"}>
         <p className="text-2xl font-semibold">LOGO</p>
       </Link>

@@ -16,7 +16,7 @@
   --card-foreground: oklch(0.129 0.042 264.695);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.129 0.042 264.695);
-  --primary: oklch(0.208 0.042 265.755);
+  --primary: oklch(59.87% 0.22 257.83);
   --primary-foreground: oklch(0.984 0.003 247.858);
   --secondary: oklch(0.968 0.007 247.896);
   --secondary-foreground: oklch(0.208 0.042 265.755);
@@ -52,7 +52,7 @@
   --card-foreground: oklch(0.984 0.003 247.858);
   --popover: oklch(0.129 0.042 264.695);
   --popover-foreground: oklch(0.984 0.003 247.858);
-  --primary: oklch(0.984 0.003 247.858);
+  --primary: oklch(61.94% 0.2085 255.62);
   --primary-foreground: oklch(0.208 0.042 265.755);
   --secondary: oklch(0.279 0.041 260.031);
   --secondary-foreground: oklch(0.984 0.003 247.858);
@@ -137,5 +137,11 @@
   }
   .fl_center {
     @apply flex justify-center items-center;
+  }
+  .h_lg {
+    @apply text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold;
+  }
+  .h_md {
+    @apply text-3xl sm:text-4xl md:text-5xl font-semibold;
   }
 }

@@ -33,4 +33,8 @@ const navLinks = [
   },
 ];
 
+export const heroDescription =
+  "Ready to go beyond the ordinary? At Orgoto, every destination becomes a canvas, waiting to be painted with your unique experiences.";
+
+export const packagesHeading = "Choose from a wide range of packages";
 export { packages, navLinks };

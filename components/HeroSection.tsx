@@ -1,5 +1,44 @@
+import { heroDescription } from "@/constants";
+import RevealSentence from "./shared/RevealSentence";
+import RevealWord from "./shared/RevealWord";
+import { Badge } from "./ui/badge";
+import { Button } from "./ui/button";
+import Link from "next/link";
+import SlideIn from "./shared/SlideIn";
+import { ArrowRight } from "lucide-react";
+
 const HeroSection = () => {
-  return <section className="min-h-[80vh] fl_center wrapper">Hero section</section>;
+  return (
+    <section className="min-h-[90vh] md:min-h-[70vh] lg:min-h-[85vh] flex flex-col md:flex-row items-center wrapper gap-10 justify-evenly py-16 md:py-8">
+      <SlideIn className="text-center md:text-left" from="left">
+        <Badge
+          className="text-base rounded-full px-5 py-2 font-semibold inline-flex gap-4"
+          variant="secondary"
+        >
+          <span>Explore the world</span>
+          <span className="text-xl">🎉</span>
+        </Badge>
+        <h1 className="h_lg mt-2">
+          Begin your <RevealWord word="Journey" className="text-primary" />
+        </h1>
+        <RevealSentence
+          className="text-muted-foreground mt-5 text-lg"
+          sentence={heroDescription}
+          delay={0.8}
+        />
+        <Button
+          asChild
+          size="lg"
+          className="rounded-full mt-5 text-base font-semibold group hover:pr-7 transition-all"
+        >
+          <Link href="#packages">
+            Explore packages <ArrowRight className="scale-110 group-hover:translate-x-1 group-hover:scale-130 transition-transform" />
+          </Link>
+        </Button>
+      </SlideIn>
+      <div className="w-full max-w-72 md:w-2/5 md:max-w-full aspect-square rounded-2xl bg-primary/30 shrink-0" />
+    </section>
+  );
 };
 
 export default HeroSection;
