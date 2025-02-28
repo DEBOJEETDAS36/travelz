@@ -65,7 +65,7 @@ const ReviewSection = () => {
       <p ref={headingRef} className="h_md text-primary text-center opacity-0">
         Here's what our clients have to say
       </p>
-      <div className="min-h-[80vh] flex flex-col md:flex gap-5 relative mt-5 md:py-10">
+      <div className="flex flex-col md:flex gap-5 relative mt-8 md:py-10">
         <div
           ref={(el) => {
             if (el) lineRefs.current[0] = el;
