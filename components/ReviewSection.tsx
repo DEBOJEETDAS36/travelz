@@ -20,7 +20,7 @@ const ReviewSection = () => {
     const timeline = gsap.timeline({
       scrollTrigger: {
         trigger: sectionRef.current,
-        start: "top 80%",
+        start: "top 67%",
         once: true,
       },
     });
