@@ -68,7 +68,7 @@ const AboutSection = () => {
     <section
       ref={sectionRef}
       id="about"
-      className="min-h-[80vh] wrapper flex flex-col gap-10 py-10 md:flex-row"
+      className="wrapper flex flex-col gap-10 py-10 md:flex-row"
     >
       <div className="w-full aspect-square max-h-136 md:w-1/2 rounded-2xl bg-primary/30"></div>
       <div className="w-full md:w-1/2">

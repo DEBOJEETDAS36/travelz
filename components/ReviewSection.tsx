@@ -70,7 +70,7 @@ const ReviewSection = () => {
           ref={(el) => {
             if (el) lineRefs.current[0] = el;
           }}
-          className="absolute w-1 left-1/2 -translate-x-1/2 top-0 rounded-full bg-primary hidden md:block"
+          className="absolute w-0.5 left-1/2 -translate-x-1/2 top-0 rounded-full bg-primary hidden md:block"
         />
         <div
           ref={(el) => {
