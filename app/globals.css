@@ -144,4 +144,7 @@
   .h_md {
     @apply text-3xl sm:text-4xl md:text-5xl font-semibold;
   }
+  .h_sm {
+    @apply text-2xl md:text-3xl font-semibold;
+  }
 }

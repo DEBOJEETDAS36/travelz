@@ -4,7 +4,7 @@ import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-
+import PackagesContainer from "./shared/PackagesContainer";
 gsap.registerPlugin(ScrollTrigger);
 
 const PackagesSection = () => {
@@ -14,7 +14,7 @@ const PackagesSection = () => {
   useGSAP(() => {
     gsap.to(headingRef.current, {
       opacity: 1,
-      duration: 1,
+      duration: 0.5,
       y: 0,
       ease: "power2.inOut",
       scrollTrigger: {
@@ -30,14 +30,16 @@ const PackagesSection = () => {
     <section
       ref={sectionRef}
       id="packages"
-      className="min-h-[80vh] wrapper py-5"
+      className="min-h-[80vh] wrapper flex flex-col items-center py-5"
     >
       <h2
         ref={headingRef}
         className="text-center text-muted-foreground opacity-0 translate-y-[20px] text-xl font-semibold"
       >
-        Choose from a wide range of packages <span className="text-2xl">😊</span>
+        Choose from a wide range of packages{" "}
+        <span className="text-2xl">😊</span>
       </h2>
+      <PackagesContainer />
     </section>
   );
 };
