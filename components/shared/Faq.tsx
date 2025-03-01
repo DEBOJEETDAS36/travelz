@@ -14,10 +14,8 @@ const Faq = ({
   value: string;
 }) => {
   return (
-    <AccordionItem value={value}>
-      <AccordionTrigger className="text-muted-foreground">
-        {title}
-      </AccordionTrigger>
+    <AccordionItem value={value} className="mt-2">
+      <AccordionTrigger className="hover:px-0">{title}</AccordionTrigger>
       <AccordionContent>{description}</AccordionContent>
     </AccordionItem>
   );

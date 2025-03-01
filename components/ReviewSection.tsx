@@ -79,6 +79,7 @@ const ReviewSection = () => {
           className="absolute w-1 left-1/2 -translate-x-1/2 top-0 rounded-full bg-primary hidden md:block blur-md"
         />
 
+        <div className="absolute size-32 rounded-full bg-primary/40 top-1/2 left-1/2 -translate-1/2 blur-3xl scale-[2.5]"/>
         <div className="absolute size-4 rounded-full bg-primary left-1/2 -translate-x-1/2 top-0 hidden md:block" />
         <div className="absolute size-6 rounded-full bg-primary left-1/2 -translate-x-1/2 -translate-y-1/2 top-0 blur-lg hidden md:block" />
 

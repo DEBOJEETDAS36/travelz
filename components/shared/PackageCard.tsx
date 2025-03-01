@@ -8,7 +8,7 @@ import {
 } from "@/components/ui/card";
 import React from "react";
 import { Button } from "../ui/button";
-import { Expand, LocateIcon, MapPin } from "lucide-react";
+import { MapPin } from "lucide-react";
 import {
   Dialog,
   DialogContent,
@@ -24,15 +24,19 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import Image from "next/image";
-import Link from "next/link";
 import { Badge } from "../ui/badge";
+import Link from "next/link";
 
 const PackageCard = () => {
   return (
     <Card className="break-inside-avoid w-full pt-0 overflow-hidden">
       <div className="w-full aspect-video bg-primary/20 relative">
-        <Badge className="px-4 py-3 rounded-full absolute bottom-0 right-6 bg-card translate-y-1/2 text-base tracking-wide" variant="secondary">Wildlife</Badge>
+        <Badge
+          className="px-4 py-3 rounded-full absolute bottom-0 right-6 bg-card translate-y-1/2 text-base tracking-wide"
+          variant="secondary"
+        >
+          Wildlife
+        </Badge>
       </div>
       <CardHeader>
         <CardTitle>Card title</CardTitle>
@@ -122,8 +126,8 @@ const PackageCard = () => {
             </div>
           </DialogContent>
         </Dialog>
-        <Button className="w-full" size="lg">
-          Book now
+        <Button className="w-full" size="lg" asChild>
+          <Link href="/123">Explore package</Link>
         </Button>
       </CardFooter>
     </Card>
