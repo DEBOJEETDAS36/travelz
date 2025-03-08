@@ -9,7 +9,7 @@ const PackagesContainer = () => {
       <div className="mt-10 relative">
         <Search className="absolute w-4 left-0 top-1/2 -translate-y-1/2 translate-x-3 text-primary" />
         <Input
-          className="w-fit h-10 pl-9 rounded-full text-primary bg-secondary"
+          className="w-fit h-10 pl-9 rounded-full text-foreground bg-secondary"
           placeholder="Search packages"
         />
       </div>

@@ -1,35 +1,4 @@
-const packages = [
-  {
-    id: "123",
-    images: ["image1.jpg", "image2.jpg", "image3.jpg"],
-    title: "Package 1",
-    description: "Description 1",
-    destination: "Destination 1",
-    category: ["Category 1", "Category 2"],
-    moreInfo: [
-      {
-        title: "More Info 1",
-        description: "Description 1",
-      },
-      {
-        title: "More Info 2",
-        description: "Description 2",
-      },
-    ],
-  },
-];
-
-export type Tpackage = {
-  id: string;
-  images: string[];
-  title: string;
-  description: string;
-  destination: string;
-  category: string[];
-  moreInfo: object[];
-};
-
-const navLinks = [
+export const navLinks = [
   {
     name: "Packages",
     url: "#packages",
@@ -51,5 +20,804 @@ const navLinks = [
 export const heroDescription =
   "Ready to go beyond the ordinary? At Orgoto, every destination becomes a canvas, waiting to be painted with your unique experiences.";
 
-export const packagesHeading = "Choose from a wide range of packages";
-export { packages, navLinks };
+export const tourCards = [
+  {
+    id: "ZLYGO25",
+    tour_name: "EASTERN HIMACHAL (SPITI VALLEY)",
+    duration: "11 Nights / 12 Days",
+    season: "SUMMER SPECIAL, 2025",
+    departure_date: "3rd May, 2025",
+    price: [
+      "INR 78,960/- PER PERSON + 5 % GST (by Flight) INR",
+      "70,230/- PER PERSON + 5 % GST (by Train)",
+    ],
+    route: [
+      "Narkanda",
+      "Kalpa",
+      "Sangla",
+      "Tabo",
+      "Nako",
+      "Kaza",
+      "Manali",
+      "Chandratal",
+      "Sissu",
+    ],
+    description:
+      "Explore the rugged beauty of Spiti Valley, one of India’s most remote and stunning destinations. Witness breathtaking landscapes, ancient monasteries, and high-altitude villages while traversing the Himalayas.",
+  },
+  {
+    id: "F1CB61",
+    tour_name: "OFFBEAT BHUTAN",
+    duration: "08 Nights / 09 Days",
+    season: "SUMMER SPECIAL, 2025",
+    departure_date: "18th April, 2025",
+    price: ["INR 64,200/- PER PERSON + GST 5% (BY TRAIN)"],
+    route: [
+      "Punakha",
+      "Trongsa",
+      "Phobjika Valley",
+      "Bumthang",
+      "Wangdue",
+      "Haa Valley",
+      "Paro",
+    ],
+    description:
+      "Bhutan, the 'Land of the Peaceful Dragon,' is known for its stunning landscapes, ancient monasteries, rich culture, and pristine nature. This tour takes you through its picturesque valleys, fortresses, and historical sites while experiencing local traditions.",
+  },
+  {
+    id: "AE7NYP",
+    tour_name: "AMAZING ARUNACHAL",
+    duration: "07 Nights / 08 Days",
+    season: "SUMMER SPECIAL, 2025",
+    departure_date: "22nd May, 2025",
+    price: [
+      "50,170/- + 5% GST (By flight Ex Kolkata)",
+      "44,690/- + 5% GST (By train Ex Kolkata)",
+    ],
+    route: [
+      "Guwahati",
+      "Bhalukpong",
+      "Dirang",
+      "Tawang",
+      "Bumla Pass",
+      "Bomdila",
+      "Nameri",
+      "Guwahati",
+    ],
+    description:
+      "Experience the untouched beauty of Arunachal Pradesh, a land of towering mountains, pristine forests, and ancient monasteries. This journey takes you through breathtaking landscapes, rich tribal culture, and historical sites, offering an unforgettable adventure in Northeast India.",
+  },
+  {
+    id: "3DGRLF",
+    tour_name: "OFFBEAT KASHMIR WITH TULIP GARDEN",
+    duration: "09 Nights / 10 Days",
+    season: "TULIP SPECIAL, 2025",
+    departure_date: "03rd April, 2025",
+    price: [
+      "INR 60,600/- + 5% GST By Train (Kolkata to Jammu & Jammu to Srinagar by road)",
+      "INR 69,600/- + 5% GST By FLIGHT & TRAIN (Kolkata to Delhi to Kolkata by train & Delhi to Srinagar to Delhi by Flight)",
+      "INR 72,680/- 5% GST By FLIGHT ex Kolkata",
+    ],
+    route: [
+      "Kolkata",
+      "Srinagar",
+      "Gurez Valley",
+      "Lolab Valley",
+      "Keran",
+      "Yusmarg",
+      "Doodhpathri",
+      "Srinagar",
+      "Kolkata",
+    ],
+    description:
+      "Discover the untouched beauty of Kashmir beyond the usual tourist routes. This exclusive itinerary takes you through breathtaking landscapes, charming valleys, high-altitude lakes, and the mesmerizing Tulip Garden. Experience the rich culture, unique villages, and stunning natural wonders of the region.",
+  },
+  {
+    id: "UMORMH",
+    tour_name:
+      "SOUTH AFRICAN SPLENDOUR WITH KRUGER NATIONAL PARK & VICTORIA FALLS",
+    duration: "10 Nights / 11 Days",
+    season: "SUMMER SPECIAL – 2025",
+    departure_date: "23rd May, 2025",
+    price: ["INR 135727/- + USD 2342 PER PERSON"],
+    route: [
+      "Kolkata",
+      "Johannesburg",
+      "Kruger National Park",
+      "Knysna",
+      "Mossel Bay",
+      "Cape Town",
+      "Livingstone (Victoria Falls)",
+      "Johannesburg",
+      "Kolkata",
+    ],
+    description:
+      "Experience the best of South Africa with breathtaking landscapes, world-famous wildlife safaris, stunning coastal scenery, and the majestic Victoria Falls. This journey includes a thrilling game drive at Kruger National Park, the scenic beauty of the Garden Route, Cape Town's wonders, and the awe-inspiring Victoria Falls.",
+  },
+];
+
+export const tours = [
+  {
+    id: "ZLYGO25",
+    tour_name: "EASTERN HIMACHAL (SPITI VALLEY)",
+    duration: "11 Nights / 12 Days",
+    season: "SUMMER SPECIAL, 2025",
+    departure_date: "3rd May, 2025",
+    price: [
+      "INR 78,960/- PER PERSON + 5 % GST (by Flight) INR",
+      "70,230/- PER PERSON + 5 % GST (by Train)",
+    ],
+    route: [
+      "Narkanda",
+      "Kalpa",
+      "Sangla",
+      "Tabo",
+      "Nako",
+      "Kaza",
+      "Manali",
+      "Chandratal",
+      "Sissu",
+    ],
+    description:
+      "Explore the rugged beauty of Spiti Valley, one of India’s most remote and stunning destinations. Witness breathtaking landscapes, ancient monasteries, and high-altitude villages while traversing the Himalayas.",
+    itinerary: [
+      {
+        day: 1,
+        route: "Kolkata to Chandigarh, Transfer to Chail",
+        activities: [
+          "Meet & greet at Kolkata Airport",
+          "Transfer to Chandigarh",
+          "Evening at leisure",
+          "Overnight stay at Chail",
+        ],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        route: "Chail to Rampur via Narkanda",
+        activities: [
+          "Drive through Fagu, Theog, Matiana, Narkanda",
+          "Enjoy views of Apple orchards",
+          "Check-in at Narkanda hotel",
+          "Overnight stay at Narkanda",
+        ],
+        meals: ["Breakfast", "Lunch", "Dinner"],
+      },
+      {
+        day: 3,
+        route: "Rampur to Sangla",
+        activities: [
+          "Drive via Sainj, Rampur, Jeori, Wangtu Bridge",
+          "Visit Kamru Fort (if time permits)",
+          "Check-in at Sangla hotel",
+          "Overnight stay at Sangla",
+        ],
+        meals: ["Breakfast", "Lunch", "Dinner"],
+      },
+      {
+        day: 4,
+        route: "Sangla to Kalpa via Chitkul",
+        activities: [
+          "Drive to Kalpa (2670m altitude)",
+          "View Shivling rock formation",
+          "Visit Buddhist Gompa - Hu Bu Lan Kar",
+          "Overnight stay at Kalpa",
+        ],
+        meals: ["Breakfast", "Lunch", "Dinner"],
+      },
+      {
+        day: 5,
+        route: "Kalpa – Nako – Nako Lake – Geyu Mummy – Tabo",
+        activities: [
+          "Visit Suicide Point, monastery & temple",
+          "Drive via Hindustan Tibet Highway",
+          "See Khab (Spiti-Sutlej River Confluence)",
+          "Explore Nako Lake & Padmasambhava Temple",
+          "Visit 500-year-old Geyu Mummy",
+          "Overnight stay at Tabo",
+        ],
+        meals: ["Breakfast", "Lunch", "Dinner"],
+      },
+      {
+        day: 6,
+        route: "Tabo – Dhankar – Kaza",
+        activities: [
+          "Visit Tabo Monastery (Ajanta of the Himalayas)",
+          "See ancient Thanka paintings",
+          "Overnight stay at Kaza",
+        ],
+        meals: ["Breakfast", "Lunch", "Dinner"],
+      },
+      {
+        day: 7,
+        route:
+          "Kaza – Langza – Hikkim – Komic – Kee Monastery – Chicham Bridge – Kaza",
+        activities: [
+          "Visit Langza (Marine fossils & Buddha Statue)",
+          "Explore Komic (Highest motorable monastery)",
+          "See Hikkim (Highest post office & polling station)",
+          "Visit Ki Monastery & Chicham Bridge",
+          "Overnight stay at Kaza",
+        ],
+        meals: ["Breakfast", "Lunch", "Dinner"],
+      },
+      {
+        day: 8,
+        route: "Kaza to Sissu via Chandratal, Chicham Bridge & Kunzum Pass",
+        activities: [
+          "Visit Chandratal Lake",
+          "Camp overnight near the lake",
+          "Overnight stay at Chandratal",
+        ],
+        meals: ["Breakfast", "Lunch", "Dinner"],
+      },
+      {
+        day: 9,
+        route: "Baralacha La Excursion",
+        activities: [
+          "Visit Sissu Waterfall & Baralacha Pass (16,040 ft)",
+          "See Deepak Tal & Suraj Tal",
+          "Enjoy breathtaking Himalayan views",
+          "Overnight stay at Sissu",
+        ],
+        meals: ["Breakfast", "Lunch", "Dinner"],
+      },
+      {
+        day: 10,
+        route: "Sissu – Manali via Solang Valley",
+        activities: [
+          "Drive through Atal Tunnel",
+          "Enjoy scenic beauty of Solang Valley",
+          "Overnight stay at Manali",
+        ],
+        meals: ["Breakfast", "Lunch", "Dinner"],
+      },
+      {
+        day: 11,
+        route: "Manali Local Sightseeing",
+        activities: [
+          "Visit Hadimba Temple",
+          "Explore Tibetan Monastery, Van Vihar, Mall Road",
+          "Overnight stay at Manali",
+        ],
+        meals: ["Breakfast", "Lunch", "Dinner"],
+      },
+      {
+        day: 12,
+        route: "Manali – Chandigarh Drop",
+        activities: [
+          "Drive to Chandigarh Airport/Railway Station",
+          "Return journey home with memories",
+        ],
+        meals: ["Breakfast", "Lunch"],
+      },
+    ],
+  },
+  {
+    id: "F1CB61",
+    tour_name: "OFFBEAT BHUTAN",
+    duration: "08 Nights / 09 Days",
+    season: "SUMMER SPECIAL, 2025",
+    departure_date: "18th April, 2025",
+    price: ["INR 64,200/- PER PERSON + GST 5% (BY TRAIN)"],
+    route: [
+      "Punakha",
+      "Trongsa",
+      "Phobjika Valley",
+      "Bumthang",
+      "Wangdue",
+      "Haa Valley",
+      "Paro",
+    ],
+    description:
+      "Bhutan, the 'Land of the Peaceful Dragon,' is known for its stunning landscapes, ancient monasteries, rich culture, and pristine nature. This tour takes you through its picturesque valleys, fortresses, and historical sites while experiencing local traditions.",
+    itinerary: [
+      {
+        day: 1,
+        route: "Hasimara to Thimpu via Phuentsholing",
+        activities: [
+          "Arrival at Hasimara railway station or Alipurduar",
+          "Transfer to Phuentsholing for permit formalities",
+          "Lunch at Phuentsholing",
+          "Drive to Thimphu",
+          "Overnight stay at Thimphu",
+        ],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        route: "Thimphu to Trongsa",
+        activities: [
+          "Drive through oak and pine forests, passing Nobding Village",
+          "Stop at Pele La Pass (3,300m) for panoramic views",
+          "Visit Chendebji Chorten",
+          "Explore Trongsa Dzong, Bhutan’s largest fortress",
+          "Overnight stay at Trongsa",
+        ],
+        meals: ["Breakfast", "Lunch", "Dinner"],
+      },
+      {
+        day: 3,
+        route: "Trongsa to Bumthang",
+        activities: [
+          "Drive through Yotong La Pass (3,400m)",
+          "Visit Yathra Weaving Center at Zugney Village",
+          "Explore Bumthang Valley",
+          "Visit Tamshing Goemba, Kurjey Lhakhang, and Jambay Lhakhang",
+          "Explore Jakar Dzong",
+          "Overnight stay at Bumthang",
+        ],
+        meals: ["Breakfast", "Lunch", "Dinner"],
+      },
+      {
+        day: 4,
+        route: "Bumthang Excursion",
+        activities: [
+          "Explore Tang Valley",
+          "Visit Ugyen Choling Heritage Museum",
+          "Hike to Ugyen Choling Palace",
+          "Visit Me-Bar Tsho (Burning Lake)",
+          "Overnight stay at Bumthang",
+        ],
+        meals: ["Breakfast", "Lunch", "Dinner"],
+      },
+      {
+        day: 5,
+        route: "Bumthang to Gangtey/Phobjikha",
+        activities: [
+          "Drive through scenic landscapes to Gangtey",
+          "Visit Gangtey Monastery",
+          "Explore Phobjikha Valley and nature trails",
+          "Overnight stay at Gangtey/Phobjikha",
+        ],
+        meals: ["Breakfast", "Lunch", "Dinner"],
+      },
+      {
+        day: 6,
+        route: "Phobjikha to Punakha",
+        activities: [
+          "Drive to Punakha",
+          "Visit Punakha Dzong",
+          "Explore local sites in Punakha",
+          "Overnight stay at Punakha",
+        ],
+        meals: ["Breakfast", "Lunch", "Dinner"],
+      },
+      {
+        day: 7,
+        route: "Punakha to Paro",
+        activities: [
+          "Drive to Paro via Dochula Pass",
+          "Local sightseeing in Paro",
+          "Overnight stay at Paro",
+        ],
+        meals: ["Breakfast", "Lunch", "Dinner"],
+      },
+      {
+        day: 8,
+        route: "Paro to Haa Valley Excursion",
+        activities: [
+          "Drive through Chelela Pass to Haa Valley",
+          "Visit Chhundu Lhakhang, Lhakhang Karpo and Lhakhang Nagpo",
+          "Explore Haa Dzong",
+          "Visit Dobji Dzong",
+          "Overnight stay at Paro",
+        ],
+        meals: ["Breakfast", "Lunch", "Dinner"],
+      },
+      {
+        day: 9,
+        route: "Paro to Hasimara/Alipurduar Drop",
+        activities: [
+          "Breakfast at the hotel",
+          "Drive to Hasimara/Alipurduar",
+          "End of tour",
+        ],
+        meals: ["Breakfast", "Lunch"],
+      },
+    ],
+  },
+  {
+    id: "AE7NYP",
+    tour_name: "AMAZING ARUNACHAL",
+    duration: "07 Nights / 08 Days",
+    season: "SUMMER SPECIAL, 2025",
+    departure_date: "22nd May, 2025",
+    price: [
+      "50,170/- + 5% GST (By flight Ex Kolkata)",
+      "44,690/- + 5% GST (By train Ex Kolkata)",
+    ],
+    route: [
+      "Guwahati",
+      "Bhalukpong",
+      "Dirang",
+      "Tawang",
+      "Bumla Pass",
+      "Bomdila",
+      "Nameri",
+      "Guwahati",
+    ],
+    description:
+      "Experience the untouched beauty of Arunachal Pradesh, a land of towering mountains, pristine forests, and ancient monasteries. This journey takes you through breathtaking landscapes, rich tribal culture, and historical sites, offering an unforgettable adventure in Northeast India.",
+    itinerary: [
+      {
+        day: 1,
+        route: "Guwahati to Nameri/Bhalukpong",
+        activities: [
+          "Welcome at Guwahati Airport/Railway Station",
+          "Drive to Bhalukpong, an elephant reserve",
+          "Explore Nameri National Park, home to 300+ bird species",
+          "Nature walk to Jia Bhoreli (Kameng River)",
+          "Leisure time in the evening",
+          "Overnight stay at Nameri/Bhalukpong",
+        ],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        route: "Bhalukpong/Nameri to Dirang",
+        activities: [
+          "Optional: River rafting or jungle trekking",
+          "Visit Tipi Orchid Research Centre (10,000+ orchid plants)",
+          "Scenic drive with waterfalls and landscapes",
+          "Visit Nag Mandir en route",
+          "Explore hot water spring, Sangti Valley, and Dzong Fort",
+          "Overnight stay at Dirang",
+        ],
+        meals: ["Breakfast", "Dinner"],
+      },
+      {
+        day: 3,
+        route: "Dirang to Tawang",
+        activities: [
+          "Visit War Cemetery",
+          "Drive through Sela Pass (4170m) with high-altitude lakes",
+          "Visit Jaswant Garh War Memorial",
+          "Stop at Nuranang Falls (Jang Falls)",
+          "Overnight stay at Tawang",
+        ],
+        meals: ["Breakfast", "Dinner"],
+      },
+      {
+        day: 4,
+        route: "Tawang Exploration",
+        activities: [
+          "Visit Sela Pass & Sela Lake",
+          "Explore Tawang War Memorial",
+          "Visit Tawang Monastery (India’s largest, world’s second-largest)",
+          "Discover Singsor Ani Gompa",
+          "Leisure evening",
+          "Overnight stay at Tawang",
+        ],
+        meals: ["Breakfast", "Dinner"],
+      },
+      {
+        day: 5,
+        route: "Bumla Pass Excursion",
+        activities: [
+          "Visit Bum La Pass (Indo-China Border)",
+          "See Sangestar Lake (Madhuri Lake) & P.Tso Lake",
+          "Explore Tawang Monastery",
+          "Visit Singsor Ani Gompa & Tawang War Memorial",
+          "Overnight stay at Tawang",
+        ],
+        meals: ["Breakfast", "Dinner"],
+      },
+      {
+        day: 6,
+        route: "Tawang to Sangti Valley/Bomdila",
+        activities: [
+          "Drive to Bomdila",
+          "Check-in at hotel",
+          "Visit Bomdila Monastery & Bomdila View Point",
+          "Explore local markets",
+          "Overnight stay at Bomdila",
+        ],
+        meals: ["Breakfast", "Dinner"],
+      },
+      {
+        day: 7,
+        route: "Bomdila to Nameri",
+        activities: [
+          "Drive to Nameri National Park",
+          "Explore diverse wildlife including tigers, leopards, wild bison",
+          "Birdwatching (White-winged wood duck, hornbills, black stork, etc.)",
+          "Nature walk along Jia Bhoreli River",
+          "Overnight stay at Nameri",
+        ],
+        meals: ["Breakfast", "Dinner"],
+      },
+      {
+        day: 8,
+        route: "Nameri to Guwahati",
+        activities: [
+          "Guided walking safari in Nameri National Park",
+          "Breakfast at resort",
+          "Drive back to Guwahati",
+          "Drop at airport for return flight to Kolkata",
+          "Tour ends with beautiful memories",
+        ],
+        meals: ["Breakfast", "Dinner"],
+      },
+    ],
+  },
+  {
+    id: "3DGRLF",
+    tour_name: "OFFBEAT KASHMIR WITH TULIP GARDEN",
+    duration: "09 Nights / 10 Days",
+    season: "TULIP SPECIAL, 2025",
+    departure_date: "03rd April, 2025",
+    price: [
+      "INR 60,600/- + 5% GST By Train (Kolkata to Jammu & Jammu to Srinagar by road)",
+      "INR 69,600/- + 5% GST By FLIGHT & TRAIN (Kolkata to Delhi to Kolkata by train & Delhi to Srinagar to Delhi by Flight)",
+      "INR 72,680/- 5% GST By FLIGHT ex Kolkata",
+    ],
+    route: [
+      "Kolkata",
+      "Srinagar",
+      "Gurez Valley",
+      "Lolab Valley",
+      "Keran",
+      "Yusmarg",
+      "Doodhpathri",
+      "Srinagar",
+      "Kolkata",
+    ],
+    description:
+      "Discover the untouched beauty of Kashmir beyond the usual tourist routes. This exclusive itinerary takes you through breathtaking landscapes, charming valleys, high-altitude lakes, and the mesmerizing Tulip Garden. Experience the rich culture, unique villages, and stunning natural wonders of the region.",
+    itinerary: [
+      {
+        day: 1,
+        route: "Kolkata to Srinagar",
+        activities: [
+          "Arrival in Srinagar, transfer to hotel",
+          "Leisure walk along Boulevard Road by Dal Lake",
+          "Enjoy a 1-hour Shikara ride",
+          "Overnight stay in Srinagar",
+        ],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        route: "Srinagar Local Sightseeing with Tulip Garden",
+        activities: [
+          "Visit Sankaracharya Temple, Chashma Shahi Royal Spring",
+          "Explore Mughal Gardens: Nishat, Shalimar, and Chashma Shahi",
+          "Visit the world-famous Tulip Garden",
+          "Overnight stay in Srinagar",
+        ],
+        meals: ["Breakfast", "Lunch", "Dinner"],
+      },
+      {
+        day: 3,
+        route: "Srinagar to Gurez Valley via Razdan Pass",
+        activities: [
+          "Scenic drive via Razdan Pass",
+          "Visit Wular Lake (Asia’s largest freshwater lake)",
+          "Check-in at hotel in Gurez Valley",
+          "Explore snow-capped mountains and remote villages",
+          "Overnight stay in Gurez Valley",
+        ],
+        meals: ["Breakfast", "Lunch", "Dinner"],
+      },
+      {
+        day: 4,
+        route: "Exploring Gurez Valley",
+        activities: [
+          "Explore remote villages of Dawar and Tulail",
+          "Visit Habba Khatoon Peak and Spring",
+          "Discover the untouched beauty of Gurez",
+          "Overnight stay in Gurez Valley",
+        ],
+        meals: ["Breakfast", "Lunch", "Dinner"],
+      },
+      {
+        day: 5,
+        route: "Gurez Valley to Lolab Valley via Wular Lake",
+        activities: [
+          "Drive through picturesque landscapes",
+          "Visit Wular Lake (Watlab side)",
+          "Check-in at hotel in Lolab Valley",
+          "Overnight stay in Lolab Valley",
+        ],
+        meals: ["Breakfast", "Lunch", "Dinner"],
+      },
+      {
+        day: 6,
+        route: "Exploring Lolab Valley",
+        activities: [
+          "Visit Kupwara & Satbaran",
+          "Explore Kalaroos Cave Monument",
+          "Overnight stay in Lolab Valley",
+        ],
+        meals: ["Breakfast", "Lunch", "Dinner"],
+      },
+      {
+        day: 7,
+        route: "Lolab Valley to Keran",
+        activities: [
+          "Drive to the remote border village of Keran",
+          "Check-in at hotel",
+          "Explore the picturesque surroundings",
+          "Overnight stay in Keran",
+        ],
+        meals: ["Breakfast", "Lunch", "Dinner"],
+      },
+      {
+        day: 8,
+        route: "Keran to Yusmarg via Bangus Valley",
+        activities: [
+          "Drive through Bangus Valley",
+          "Explore Yusmarg, a paradise of grassy pastures and pine forests",
+          "Enjoy breathtaking views of snowcapped mountains",
+          "Overnight stay in Yusmarg",
+        ],
+        meals: ["Breakfast", "Lunch", "Dinner"],
+      },
+      {
+        day: 9,
+        route: "Yusmarg to Srinagar via Doodhpathri",
+        activities: [
+          "Drive to Doodhpathri, ‘Valley of Milk’",
+          "Explore lush green meadows and silver streams",
+          "Enjoy breathtaking landscapes of the Pir Panjal Range",
+          "Check-in to a houseboat in Srinagar",
+          "Overnight stay in a traditional houseboat",
+        ],
+        meals: ["Breakfast", "Lunch", "Dinner"],
+      },
+      {
+        day: 10,
+        route: "Srinagar to Kolkata",
+        activities: [
+          "Transfer to Srinagar airport for return flight",
+          "End of tour with beautiful memories",
+        ],
+        meals: ["Breakfast"],
+      },
+    ],
+  },
+  {
+    id: "UMORMH",
+    tour_name:
+      "SOUTH AFRICAN SPLENDOUR WITH KRUGER NATIONAL PARK & VICTORIA FALLS",
+    duration: "10 Nights / 11 Days",
+    season: "SUMMER SPECIAL – 2025",
+    departure_date: "23rd May, 2025",
+    price: ["INR 135727/- + USD 2342 PER PERSON"],
+    route: [
+      "Kolkata",
+      "Johannesburg",
+      "Kruger National Park",
+      "Knysna",
+      "Mossel Bay",
+      "Cape Town",
+      "Livingstone (Victoria Falls)",
+      "Johannesburg",
+      "Kolkata",
+    ],
+    description:
+      "Experience the best of South Africa with breathtaking landscapes, world-famous wildlife safaris, stunning coastal scenery, and the majestic Victoria Falls. This journey includes a thrilling game drive at Kruger National Park, the scenic beauty of the Garden Route, Cape Town's wonders, and the awe-inspiring Victoria Falls.",
+    itinerary: [
+      {
+        day: 1,
+        route: "Kolkata to Johannesburg",
+        activities: [
+          "Arrival at Johannesburg Airport",
+          "Private transfer to Emperors Palace Hotel",
+          "Leisure time to explore the hotel and its entertainment options",
+          "Overnight stay in Johannesburg",
+        ],
+        meals: ["Dinner"],
+      },
+      {
+        day: 2,
+        route: "Johannesburg to Kruger National Park via Pretoria",
+        activities: [
+          "Early breakfast and departure for Kruger National Park",
+          "Explore the scenic Panorama Route",
+          "Visit The Three Rondavels, Bourke’s Luck Potholes, and God’s Window",
+          "Overnight stay near Kruger National Park",
+        ],
+        meals: ["Breakfast", "Lunch", "Dinner"],
+      },
+      {
+        day: 3,
+        route: "Kruger National Park Safari",
+        activities: [
+          "Early morning full-day game drive in Kruger National Park",
+          "Spot the Big Five and other wildlife",
+          "Buffet lunch at a rest camp in Kruger",
+          "Overnight stay near Kruger National Park",
+        ],
+        meals: ["Breakfast", "Lunch", "Dinner"],
+      },
+      {
+        day: 4,
+        route: "Kruger to Knysna via Johannesburg",
+        activities: [
+          "Breakfast and transfer to MQP Airport",
+          "Flight to George via Johannesburg",
+          "Private transfer to Knysna",
+          "Dinner and overnight stay in Knysna",
+        ],
+        meals: ["Breakfast", "Lunch", "Dinner"],
+      },
+      {
+        day: 5,
+        route: "Mossel Bay – Full Day Oudtshoorn Tour",
+        activities: [
+          "Visit Cango Caves for a guided Heritage Tour",
+          "Explore an Ostrich Farm and experience an interactive tour",
+          "Lunch at the Ostrich Farm",
+          "Return to Knysna for overnight stay",
+        ],
+        meals: ["Breakfast", "Lunch", "Dinner"],
+      },
+      {
+        day: 6,
+        route: "Mossel Bay to Cape Town via Cape Agulhas",
+        activities: [
+          "Drive from Knysna to Cape Town",
+          "Visit the Southernmost Tip of Africa at Cape Agulhas",
+          "Stand between the Indian and Atlantic Oceans",
+          "Overnight stay in Cape Town",
+        ],
+        meals: ["Breakfast", "Lunch", "Dinner"],
+      },
+      {
+        day: 7,
+        route: "Half-Day Cape Town City Tour & Table Mountain",
+        activities: [
+          "Explore Cape Town city highlights including V&A Waterfront, Cape of Good Hope, Lion’s Head, and Cape Point",
+          "Optional visit to Two Oceans Aquarium",
+          "Visit Table Mountain and enjoy panoramic views",
+          "Overnight stay in Cape Town",
+        ],
+        meals: ["Breakfast", "Lunch", "Dinner"],
+      },
+      {
+        day: 8,
+        route: "Full-Day Cape Peninsula Tour",
+        activities: [
+          "Drive along the Atlantic Seaboard",
+          "Seal Island Cruise in Hout Bay",
+          "Visit Cape of Good Hope National Park and take the funicular to Cape Point Lighthouse",
+          "Lunch and visit the Penguin Colony at Boulders Beach",
+          "Return to Cape Town for overnight stay",
+        ],
+        meals: ["Breakfast", "Lunch", "Dinner"],
+      },
+      {
+        day: 9,
+        route: "Cape Town to Livingstone (Victoria Falls)",
+        activities: [
+          "Flight from Cape Town to Livingstone",
+          "Private transfer to hotel",
+          "Overnight stay near Victoria Falls",
+        ],
+        meals: ["Breakfast", "Dinner"],
+      },
+      {
+        day: 10,
+        route: "Victoria Falls Tour & Zambezi Sunset Cruise",
+        activities: [
+          "Guided tour of Victoria Falls from the Zimbabwean side",
+          "Explore breathtaking viewpoints and lush surroundings",
+          "Relax on a Zambezi River Sunset Cruise",
+          "Overnight stay near Victoria Falls",
+        ],
+        meals: ["Breakfast", "Lunch", "Dinner"],
+      },
+      {
+        day: 11,
+        route: "Livingstone to Johannesburg to Kolkata",
+        activities: [
+          "Breakfast and transfer to Victoria Falls International Airport",
+          "Flight to Johannesburg for onward journey to Kolkata",
+        ],
+        meals: ["Breakfast"],
+      },
+    ],
+  },
+];
