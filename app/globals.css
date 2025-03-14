@@ -133,7 +133,7 @@
 
 @layer utilities {
   .wrapper {
-    @apply max-w-[1440px] mx-auto w-full px-5 md:px-6 lg:px-3;
+    @apply max-w-[1440px] mx-auto w-full px-5 md:px-6 lg:px-5;
   }
   .fl_center {
     @apply flex justify-center items-center;

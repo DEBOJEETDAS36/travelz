@@ -73,6 +73,7 @@ const AboutSection = () => {
       <div className="w-full aspect-square max-h-136 md:w-1/2 rounded-2xl bg-primary/30"></div>
       <div className="w-full md:w-1/2">
         <div>
+          {/* <p>lor</p> */}
           <h2 className="h_md text-primary fade_in">Why us?</h2>
           <ul className="mt-5 space-y-4 text-2xl list-disc marker:text-primary ml-6 text-muted-foreground">
             <li className="fade_in">Best prices.</li>

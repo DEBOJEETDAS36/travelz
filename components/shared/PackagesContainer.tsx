@@ -1,9 +1,18 @@
+import { useState } from "react";
 import { Search } from "lucide-react";
 import { Input } from "../ui/input";
 import PackageCard from "./PackageCard";
 import { Button } from "../ui/button";
+import { tourCards } from "@/constants";
 
 const PackagesContainer = () => {
+  const [searchQuery, setSearchQuery] = useState("");
+
+  // Filtered results based on search input
+  const filteredPackages = tourCards.filter((card) =>
+    card.tour_name.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
   return (
     <>
       <div className="mt-10 relative">
@@ -11,18 +20,22 @@ const PackagesContainer = () => {
         <Input
           className="w-fit h-10 pl-9 rounded-full text-foreground bg-secondary"
           placeholder="Search packages"
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
         />
       </div>
 
       <div className="w-full columns-1 md:columns-2 lg:columns-3 gap-5 space-y-5 mt-8">
-        <PackageCard />
-        <PackageCard />
-        <PackageCard />
-        <PackageCard />
-        <PackageCard />
-        <PackageCard />
+        {filteredPackages.length > 0 ? (
+          filteredPackages.map((card) => (
+            <PackageCard key={card.id} {...card} />
+          ))
+        ) : (
+          <p className="text-center text-muted-foreground mt-5">
+            No packages found.
+          </p>
+        )}
       </div>
-      <Button className="mt-8" variant="link">See all packages</Button>
     </>
   );
 };

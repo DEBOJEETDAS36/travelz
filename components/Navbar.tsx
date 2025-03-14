@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import { ModeToggle } from "./shared/ModeToggle";
 import { Button } from "./ui/button";
@@ -8,24 +9,34 @@ import {
   PopoverTrigger,
 } from "@/components/ui/popover";
 import { Menu, X } from "lucide-react";
+import { usePathname } from "next/navigation";
 
 const Navbar = () => {
+  const pathName = usePathname();
   return (
     <header className="wrapper py-4 flex justify-between items-center">
       <Link href={"/"}>
         <p className="text-2xl font-semibold">LOGO</p>
       </Link>
-      <nav className="hidden sm:flex items-center">
-        <ul className="flex items-center">
-          {navLinks.map(({ name, url }) => (
-            <li key={name}>
-              <Button asChild variant="ghost" className="text-muted-foreground">
-                <Link href={url}>{name}</Link>
-              </Button>
-            </li>
-          ))}
-        </ul>
-      </nav>
+
+      {pathName === "/" && (
+        <nav className="hidden sm:flex items-center">
+          <ul className="flex items-center">
+            {navLinks.map(({ name, url }) => (
+              <li key={name}>
+                <Button
+                  asChild
+                  variant="ghost"
+                  className="text-muted-foreground"
+                >
+                  <Link href={url}>{name}</Link>
+                </Button>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )}
+
       <div className="flex flex-row gap-4">
         <ModeToggle />
 
