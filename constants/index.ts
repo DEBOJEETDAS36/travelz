@@ -27,6 +27,8 @@ export const tourCards = [
     duration: "11 Nights / 12 Days",
     season: "SUMMER SPECIAL, 2025",
     departure_date: "3rd May, 2025",
+    images: ["/travelz/Eastern Himachal(Spiti Valley)/img1"],
+
     price: [
       "INR 78,960/- PER PERSON + 5 % GST (by Flight) INR",
       "70,230/- PER PERSON + 5 % GST (by Train)",
@@ -51,6 +53,7 @@ export const tourCards = [
     duration: "08 Nights / 09 Days",
     season: "SUMMER SPECIAL, 2025",
     departure_date: "18th April, 2025",
+    images: ["/travelz/Bhutan/img1"],
     price: ["INR 64,200/- PER PERSON + GST 5% (BY TRAIN)"],
     route: [
       "Punakha",
@@ -70,6 +73,7 @@ export const tourCards = [
     duration: "07 Nights / 08 Days",
     season: "SUMMER SPECIAL, 2025",
     departure_date: "22nd May, 2025",
+    images: ["/travelz/Arunachal/img1"],
     price: [
       "50,170/- + 5% GST (By flight Ex Kolkata)",
       "44,690/- + 5% GST (By train Ex Kolkata)",
@@ -93,6 +97,7 @@ export const tourCards = [
     duration: "09 Nights / 10 Days",
     season: "TULIP SPECIAL, 2025",
     departure_date: "03rd April, 2025",
+    images: ["/travelz/Kashmir/img1"],
     price: [
       "INR 60,600/- + 5% GST By Train (Kolkata to Jammu & Jammu to Srinagar by road)",
       "INR 69,600/- + 5% GST By FLIGHT & TRAIN (Kolkata to Delhi to Kolkata by train & Delhi to Srinagar to Delhi by Flight)",
@@ -119,6 +124,7 @@ export const tourCards = [
     duration: "10 Nights / 11 Days",
     season: "SUMMER SPECIAL – 2025",
     departure_date: "23rd May, 2025",
+    images: ["/travelz/South Africa/img1"],
     price: ["INR 135727/- + USD 2342 PER PERSON"],
     route: [
       "Kolkata",
@@ -143,6 +149,11 @@ export const tours = [
     duration: "11 Nights / 12 Days",
     season: "SUMMER SPECIAL, 2025",
     departure_date: "3rd May, 2025",
+    images: [
+      "/travelz/Eastern Himachal(Spiti Valley)/img1",
+      "/travelz/Eastern Himachal(Spiti Valley)/img2",
+      "/travelz/Eastern Himachal(Spiti Valley)/img3",
+    ],
     price: [
       "INR 78,960/- PER PERSON + 5 % GST (by Flight) INR",
       "70,230/- PER PERSON + 5 % GST (by Train)",
@@ -299,6 +310,11 @@ export const tours = [
     duration: "08 Nights / 09 Days",
     season: "SUMMER SPECIAL, 2025",
     departure_date: "18th April, 2025",
+    images: [
+      "/travelz/Bhutan/img1",
+      "/travelz/Bhutan/img2",
+      "/travelz/Bhutan/img3",
+    ],
     price: ["INR 64,200/- PER PERSON + GST 5% (BY TRAIN)"],
     route: [
       "Punakha",
@@ -423,6 +439,11 @@ export const tours = [
     duration: "07 Nights / 08 Days",
     season: "SUMMER SPECIAL, 2025",
     departure_date: "22nd May, 2025",
+    images: [
+      "/travelz/Arunachal/img1",
+      "/travelz/Arunachal/img2",
+      "/travelz/Arunachal/img3",
+    ],
     price: [
       "50,170/- + 5% GST (By flight Ex Kolkata)",
       "44,690/- + 5% GST (By train Ex Kolkata)",
@@ -547,6 +568,11 @@ export const tours = [
     duration: "09 Nights / 10 Days",
     season: "TULIP SPECIAL, 2025",
     departure_date: "03rd April, 2025",
+    images: [
+      "/travelz/Kashmir/img1",
+      "/travelz/Arunachal/img2",
+      "/travelz/Arunachal/img3",
+    ],
     price: [
       "INR 60,600/- + 5% GST By Train (Kolkata to Jammu & Jammu to Srinagar by road)",
       "INR 69,600/- + 5% GST By FLIGHT & TRAIN (Kolkata to Delhi to Kolkata by train & Delhi to Srinagar to Delhi by Flight)",
@@ -684,6 +710,11 @@ export const tours = [
     duration: "10 Nights / 11 Days",
     season: "SUMMER SPECIAL – 2025",
     departure_date: "23rd May, 2025",
+    images: [
+      "/travelz/South Africa/img1",
+      "/travelz/South Africa/img2",
+      "/travelz/South Africa/img3",
+    ],
     price: ["INR 135727/- + USD 2342 PER PERSON"],
     route: [
       "Kolkata",

@@ -39,32 +39,33 @@ const Navbar = () => {
 
       <div className="flex flex-row gap-4">
         <ModeToggle />
+        {pathName === "/" && (
+          <Popover>
+            <PopoverTrigger asChild className="inline-flex sm:hidden">
+              <Button size="icon" variant="outline" className="group">
+                <Menu className="group-data-[state=open]:hidden" />
+                <X className="hidden group-data-[state=open]:inline-block" />
+                <span className="sr-only">Menu</span>
+              </Button>
+            </PopoverTrigger>
 
-        <Popover>
-          <PopoverTrigger asChild className="inline-flex sm:hidden">
-            <Button size="icon" variant="outline" className="group">
-              <Menu className="group-data-[state=open]:hidden" />
-              <X className="hidden group-data-[state=open]:inline-block" />
-              <span className="sr-only">Menu</span>
-            </Button>
-          </PopoverTrigger>
-
-          <PopoverContent className="block sm:hidden">
-            <ul>
-              {navLinks.map(({ name, url }) => (
-                <li key={name}>
-                  <Button
-                    asChild
-                    variant="ghost"
-                    className="text-muted-foreground w-full justify-start px-5 py-6 text-base"
-                  >
-                    <Link href={url}>{name}</Link>
-                  </Button>
-                </li>
-              ))}
-            </ul>
-          </PopoverContent>
-        </Popover>
+            <PopoverContent className="block sm:hidden">
+              <ul>
+                {navLinks.map(({ name, url }) => (
+                  <li key={name}>
+                    <Button
+                      asChild
+                      variant="ghost"
+                      className="text-muted-foreground w-full justify-start px-5 py-6 text-base"
+                    >
+                      <Link href={url}>{name}</Link>
+                    </Button>
+                  </li>
+                ))}
+              </ul>
+            </PopoverContent>
+          </Popover>
+        )}
       </div>
     </header>
   );

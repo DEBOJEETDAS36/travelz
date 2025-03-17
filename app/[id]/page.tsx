@@ -7,7 +7,6 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import { IndianRupee } from "lucide-react";
 import {
   Accordion,
   AccordionContent,
@@ -15,6 +14,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { tours } from "@/constants";
+import OptimizedImage from "@/components/shared/OptimizedImage";
 
 export default async function Page({
   params,
@@ -38,13 +38,15 @@ export default async function Page({
         <div className="w-full">
           <Carousel className="aspect-square max-h-112 w-full bg-accent relative rounded-2xl overflow-hidden">
             <CarouselContent className="text-4xl font-semibold">
-              <CarouselItem className="bg-primary/70 fl_center">A</CarouselItem>
-              <CarouselItem className="bg-emerald-500 fl_center text-8xl">
-                B
-              </CarouselItem>
-              <CarouselItem className="bg-chart-4 fl_center text-8xl">
-                C
-              </CarouselItem>
+              {pkg.images.map((image, index) => (
+                <CarouselItem key={image + index} className="w-full">
+                  <OptimizedImage
+                    path={image}
+                    alt={pkg.tour_name}
+                    containerClassName="object-cover"
+                  />
+                </CarouselItem>
+              ))}
             </CarouselContent>
 
             <div className="flex items-center gap-2 absolute ring-0 bottom-0 w-full justify-end p-3">

@@ -2,13 +2,10 @@ import { useState } from "react";
 import { Search } from "lucide-react";
 import { Input } from "../ui/input";
 import PackageCard from "./PackageCard";
-import { Button } from "../ui/button";
 import { tourCards } from "@/constants";
 
 const PackagesContainer = () => {
   const [searchQuery, setSearchQuery] = useState("");
-
-  // Filtered results based on search input
   const filteredPackages = tourCards.filter((card) =>
     card.tour_name.toLowerCase().includes(searchQuery.toLowerCase())
   );

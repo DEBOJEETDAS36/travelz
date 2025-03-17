@@ -10,6 +10,7 @@ import React from "react";
 import { Button } from "../ui/button";
 import { Badge } from "../ui/badge";
 import Link from "next/link";
+import OptimizedImage from "./OptimizedImage";
 
 const PackageCard = ({
   id,
@@ -19,6 +20,7 @@ const PackageCard = ({
   departure_date,
   price,
   route,
+  images,
   description,
 }: {
   id: string;
@@ -28,11 +30,13 @@ const PackageCard = ({
   departure_date: string;
   price: string[];
   route: string[];
+  images: string[];
   description: string;
 }) => {
   return (
     <Card className="break-inside-avoid w-full pt-0 overflow-hidden">
       <div className="w-full aspect-video bg-primary/20 relative">
+        <OptimizedImage path={images[0]} alt={tour_name} />
         <Badge
           className="px-4 py-3 rounded-full absolute bottom-0 right-6 bg-card translate-y-1/2 text-base tracking-wide"
           variant="secondary"
