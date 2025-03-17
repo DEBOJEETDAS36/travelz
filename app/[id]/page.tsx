@@ -116,7 +116,7 @@ export default async function Page({
             ))}
           </div>
 
-          <Accordion type="single" collapsible className="mt-5 text-left">
+          {/* <Accordion type="single" collapsible className="mt-5 text-left">
             <AccordionItem value="item-1">
               <AccordionTrigger className="bg-accent/50 px-4 py-3">
                 See all information
@@ -166,7 +166,7 @@ export default async function Page({
                 </div>
               </AccordionContent>
             </AccordionItem>
-          </Accordion>
+          </Accordion> */}
         </div>
       </section>
     </main>
