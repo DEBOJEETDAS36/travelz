@@ -15,7 +15,7 @@ const OptimizedImage = ({
   path: string;
   width?: number;
   height?: number;
-  alt: string;
+  alt?: string;
   containerClassName?: string;
   imageClassName?: string;
 }) => {
@@ -32,7 +32,8 @@ const OptimizedImage = ({
           )}
           draggable={false}
           urlEndpoint={urlEndpoint}
-          alt={alt}
+          alt={alt || "Image"}
+          aria-label="Image"
           path={path}
           loading="lazy"
           width={width}
