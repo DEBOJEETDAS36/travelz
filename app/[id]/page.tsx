@@ -7,12 +7,12 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
+// import {
+//   Accordion,
+//   AccordionContent,
+//   AccordionItem,
+//   AccordionTrigger,
+// } from "@/components/ui/accordion";
 import { tours } from "@/constants";
 import OptimizedImage from "@/components/shared/OptimizedImage";
 
@@ -34,7 +34,7 @@ export default async function Page({
   }
   return (
     <main>
-      <section className="flex flex-col gap-5 mt-5 mb-10 max-w-5xl px-5 md:px-6 lg:px-3 mx-auto">
+      <section className="flex flex-col gap-5 mt-5 mb-10 max-w-5xl px-5 md:px-6 lg:px-3 mx-auto pb-10">
         <div className="w-full">
           <Carousel className="aspect-square max-h-112 w-full bg-accent relative rounded-2xl overflow-hidden">
             <CarouselContent className="text-4xl font-semibold">
