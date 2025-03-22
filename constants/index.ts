@@ -17,8 +17,132 @@ export const navLinks = [
   },
 ];
 
+// export const heroDescription =
+//   "Ready to go beyond the ordinary? At Orgoto, every destination becomes a canvas, waiting to be painted with your unique experiences.";
+
 export const heroDescription =
-  "Ready to go beyond the ordinary? At Orgoto, every destination becomes a canvas, waiting to be painted with your unique experiences.";
+  "Ready to go beyond the ordinary? At Orgoto, we turn every journey into an unforgettable experience. Whether you seek adventure, breathtaking landscapes, or a peaceful escape, each destination becomes a canvas for your unique story. Let’s make your travel dreams a reality!";
+
+// export const tourCards = [
+//   {
+//     id: "ZLYGO25",
+//     tour_name: "EASTERN HIMACHAL (SPITI VALLEY)",
+//     duration: "11 Nights / 12 Days",
+//     season: "SUMMER SPECIAL, 2025",
+//     departure_date: "3rd May, 2025",
+//     images: ["/travelz/Eastern Himachal(Spiti Valley)/img1"],
+//     price: [
+//       "INR 78,960/- PER PERSON + 5 % GST (by Flight) INR",
+//       "70,230/- PER PERSON + 5 % GST (by Train)",
+//     ],
+//     route: [
+//       "Narkanda",
+//       "Kalpa",
+//       "Sangla",
+//       "Tabo",
+//       "Nako",
+//       "Kaza",
+//       "Manali",
+//       "Chandratal",
+//       "Sissu",
+//     ],
+//     description:
+//       "Explore the rugged beauty of Spiti Valley, one of India’s most remote and stunning destinations. Witness breathtaking landscapes, ancient monasteries, and high-altitude villages while traversing the Himalayas.",
+//   },
+//   {
+//     id: "F1CB61",
+//     tour_name: "OFFBEAT BHUTAN",
+//     duration: "08 Nights / 09 Days",
+//     season: "SUMMER SPECIAL, 2025",
+//     departure_date: "18th April, 2025",
+//     images: ["/travelz/Bhutan/img1"],
+//     price: ["INR 64,200/- PER PERSON + GST 5% (BY TRAIN)"],
+//     route: [
+//       "Punakha",
+//       "Trongsa",
+//       "Phobjika Valley",
+//       "Bumthang",
+//       "Wangdue",
+//       "Haa Valley",
+//       "Paro",
+//     ],
+//     description:
+//       "Bhutan, the 'Land of the Peaceful Dragon,' is known for its stunning landscapes, ancient monasteries, rich culture, and pristine nature. This tour takes you through its picturesque valleys, fortresses, and historical sites while experiencing local traditions.",
+//   },
+//   {
+//     id: "AE7NYP",
+//     tour_name: "AMAZING ARUNACHAL",
+//     duration: "07 Nights / 08 Days",
+//     season: "SUMMER SPECIAL, 2025",
+//     departure_date: "22nd May, 2025",
+//     images: ["/travelz/Arunachal/img1"],
+//     price: [
+//       "50,170/- + 5% GST (By flight Ex Kolkata)",
+//       "44,690/- + 5% GST (By train Ex Kolkata)",
+//     ],
+//     route: [
+//       "Guwahati",
+//       "Bhalukpong",
+//       "Dirang",
+//       "Tawang",
+//       "Bumla Pass",
+//       "Bomdila",
+//       "Nameri",
+//       "Guwahati",
+//     ],
+//     description:
+//       "Experience the untouched beauty of Arunachal Pradesh, a land of towering mountains, pristine forests, and ancient monasteries. This journey takes you through breathtaking landscapes, rich tribal culture, and historical sites, offering an unforgettable adventure in Northeast India.",
+//   },
+//   {
+//     id: "3DGRLF",
+//     tour_name: "OFFBEAT KASHMIR WITH TULIP GARDEN",
+//     duration: "09 Nights / 10 Days",
+//     season: "TULIP SPECIAL, 2025",
+//     departure_date: "03rd April, 2025",
+//     images: ["/travelz/Kashmir/img1"],
+//     price: [
+//       "INR 60,600/- + 5% GST By Train (Kolkata to Jammu & Jammu to Srinagar by road)",
+//       "INR 69,600/- + 5% GST By FLIGHT & TRAIN (Kolkata to Delhi to Kolkata by train & Delhi to Srinagar to Delhi by Flight)",
+//       "INR 72,680/- 5% GST By FLIGHT ex Kolkata",
+//     ],
+//     route: [
+//       "Kolkata",
+//       "Srinagar",
+//       "Gurez Valley",
+//       "Lolab Valley",
+//       "Keran",
+//       "Yusmarg",
+//       "Doodhpathri",
+//       "Srinagar",
+//       "Kolkata",
+//     ],
+//     description:
+//       "Discover the untouched beauty of Kashmir beyond the usual tourist routes. This exclusive itinerary takes you through breathtaking landscapes, charming valleys, high-altitude lakes, and the mesmerizing Tulip Garden. Experience the rich culture, unique villages, and stunning natural wonders of the region.",
+//   },
+//   {
+//     id: "UMORMH",
+//     tour_name:
+//       "SOUTH AFRICAN SPLENDOUR WITH KRUGER NATIONAL PARK & VICTORIA FALLS",
+//     duration: "10 Nights / 11 Days",
+//     season: "SUMMER SPECIAL – 2025",
+//     departure_date: "23rd May, 2025",
+//     images: ["/travelz/South Africa/img1"],
+//     price: ["INR 135727/- + USD 2342 PER PERSON"],
+//     route: [
+//       "Kolkata",
+//       "Johannesburg",
+//       "Kruger National Park",
+//       "Knysna",
+//       "Mossel Bay",
+//       "Cape Town",
+//       "Livingstone (Victoria Falls)",
+//       "Johannesburg",
+//       "Kolkata",
+//     ],
+//     description:
+//       "Experience the best of South Africa with breathtaking landscapes, world-famous wildlife safaris, stunning coastal scenery, and the majestic Victoria Falls. This journey includes a thrilling game drive at Kruger National Park, the scenic beauty of the Garden Route, Cape Town's wonders, and the awe-inspiring Victoria Falls.",
+//   },
+// ];
 
 export const tourCards = [
   {
@@ -28,10 +152,9 @@ export const tourCards = [
     season: "SUMMER SPECIAL, 2025",
     departure_date: "3rd May, 2025",
     images: ["/travelz/Eastern Himachal(Spiti Valley)/img1"],
-
     price: [
-      "INR 78,960/- PER PERSON + 5 % GST (by Flight) INR",
-      "70,230/- PER PERSON + 5 % GST (by Train)",
+      "INR 78,960/- PER PERSON + 5 % GST (by Flight)",
+      "INR 70,230/- PER PERSON + 5 % GST (by Train)",
     ],
     route: [
       "Narkanda",
@@ -46,6 +169,7 @@ export const tourCards = [
     ],
     description:
       "Explore the rugged beauty of Spiti Valley, one of India’s most remote and stunning destinations. Witness breathtaking landscapes, ancient monasteries, and high-altitude villages while traversing the Himalayas.",
+    tags: ["mountains", "himalayas", "adventure", "nature", "india"],
   },
   {
     id: "F1CB61",
@@ -66,6 +190,7 @@ export const tourCards = [
     ],
     description:
       "Bhutan, the 'Land of the Peaceful Dragon,' is known for its stunning landscapes, ancient monasteries, rich culture, and pristine nature. This tour takes you through its picturesque valleys, fortresses, and historical sites while experiencing local traditions.",
+    tags: ["bhutan", "culture", "monasteries", "scenic", "asia"],
   },
   {
     id: "AE7NYP",
@@ -75,8 +200,8 @@ export const tourCards = [
     departure_date: "22nd May, 2025",
     images: ["/travelz/Arunachal/img1"],
     price: [
-      "50,170/- + 5% GST (By flight Ex Kolkata)",
-      "44,690/- + 5% GST (By train Ex Kolkata)",
+      "INR 50,170/- + 5% GST (By flight Ex Kolkata)",
+      "INR 44,690/- + 5% GST (By train Ex Kolkata)",
     ],
     route: [
       "Guwahati",
@@ -90,6 +215,7 @@ export const tourCards = [
     ],
     description:
       "Experience the untouched beauty of Arunachal Pradesh, a land of towering mountains, pristine forests, and ancient monasteries. This journey takes you through breathtaking landscapes, rich tribal culture, and historical sites, offering an unforgettable adventure in Northeast India.",
+    tags: ["arunachal", "tribal", "wildlife", "monasteries", "himalayas"],
   },
   {
     id: "3DGRLF",
@@ -101,7 +227,7 @@ export const tourCards = [
     price: [
       "INR 60,600/- + 5% GST By Train (Kolkata to Jammu & Jammu to Srinagar by road)",
       "INR 69,600/- + 5% GST By FLIGHT & TRAIN (Kolkata to Delhi to Kolkata by train & Delhi to Srinagar to Delhi by Flight)",
-      "INR 72,680/- 5% GST By FLIGHT ex Kolkata",
+      "INR 72,680/- + 5% GST By FLIGHT ex Kolkata",
     ],
     route: [
       "Kolkata",
@@ -116,6 +242,7 @@ export const tourCards = [
     ],
     description:
       "Discover the untouched beauty of Kashmir beyond the usual tourist routes. This exclusive itinerary takes you through breathtaking landscapes, charming valleys, high-altitude lakes, and the mesmerizing Tulip Garden. Experience the rich culture, unique villages, and stunning natural wonders of the region.",
+    tags: ["kashmir", "flowers", "nature", "offbeat", "tulip garden"],
   },
   {
     id: "UMORMH",
@@ -139,6 +266,7 @@ export const tourCards = [
     ],
     description:
       "Experience the best of South Africa with breathtaking landscapes, world-famous wildlife safaris, stunning coastal scenery, and the majestic Victoria Falls. This journey includes a thrilling game drive at Kruger National Park, the scenic beauty of the Garden Route, Cape Town's wonders, and the awe-inspiring Victoria Falls.",
+    tags: ["south africa", "wildlife", "adventure", "victoria falls", "safari"],
   },
 ];
 

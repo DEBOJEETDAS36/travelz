@@ -19,7 +19,7 @@ const ContactSection = () => {
         <div className="grid gap-3 mt-5 lg:grid-cols-2">
           <Button variant="secondary" size="lg" className="py-6 text-base">
             <MailPlus className="size-6" />
-            Gmail
+            Email
           </Button>
           <Button variant="secondary" size="lg" className="py-6 text-base">
             <PhoneCall className="size-6" />

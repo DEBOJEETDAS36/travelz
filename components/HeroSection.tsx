@@ -6,10 +6,11 @@ import { Button } from "./ui/button";
 import Link from "next/link";
 import SlideIn from "./shared/SlideIn";
 import { ArrowRight } from "lucide-react";
+import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <section className="min-h-[90vh] md:min-h-[70vh] lg:min-h-[85vh] flex flex-col md:flex-row items-center wrapper gap-10 justify-evenly py-16 md:py-8">
+    <section className="min-h-[90vh] md:min-h-[70vh] lg:min-h-[85vh] flex flex-col md:flex-row items-center wrapper gap-10 justify-between py-16 md:py-8">
       <SlideIn className="text-center md:text-left" from="left">
         <Badge
           className="text-base rounded-full px-5 py-2 font-semibold inline-flex gap-4"
@@ -22,17 +23,43 @@ const HeroSection = () => {
           Begin your <RevealWord word="Journey" className="text-primary" />
         </h1>
         <RevealSentence
-          className="text-muted-foreground mt-5 text-lg"
+          className="text-muted-foreground mt-5 text-lg lg:max-w-2xl"
           sentence={heroDescription}
           delay={0.8}
         />
+        <div className="flex justify-center md:justify-start mt-4">
+          <Button
+            variant="ghost"
+            size="icon"
+            className="opacity-90 hover:opacity-100 transition-opacity"
+          >
+            <Image
+              src={"/instagram.svg"}
+              width={24}
+              height={24}
+              alt={"instagram"}
+            />
+          </Button>
+          <Button variant="ghost" size="icon">
+            <Image
+              src={"/facebook.svg"}
+              width={24}
+              height={24}
+              alt={"instagram"}
+            />
+          </Button>
+          <Button variant="ghost" size="icon">
+            <Image src={"/x.svg"} width={24} height={24} alt={"instagram"} />
+          </Button>
+        </div>
         <Button
           asChild
           size="lg"
           className="rounded-full mt-5 text-base font-semibold group hover:pr-7 transition-all"
         >
           <Link href="#packages">
-            Explore packages <ArrowRight className="scale-110 group-hover:translate-x-1 group-hover:scale-130 transition-transform" />
+            Explore packages{" "}
+            <ArrowRight className="scale-110 group-hover:translate-x-1 group-hover:scale-130 transition-transform" />
           </Link>
         </Button>
       </SlideIn>

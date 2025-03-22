@@ -23,7 +23,7 @@ const RevealSentence = ({
         opacity: 1,
         scale: 1,
         filter: "blur(0px)",
-        stagger: 0.05,
+        stagger: 0.025,
         delay, // Apply delay from props
         ease: "power2.out",
       }
