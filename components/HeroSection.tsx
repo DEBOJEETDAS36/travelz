@@ -38,6 +38,7 @@ const HeroSection = () => {
               width={24}
               height={24}
               alt={"instagram"}
+              priority
             />
           </Button>
           <Button variant="ghost" size="icon">
@@ -46,10 +47,17 @@ const HeroSection = () => {
               width={24}
               height={24}
               alt={"instagram"}
+              priority
             />
           </Button>
           <Button variant="ghost" size="icon">
-            <Image src={"/x.svg"} width={24} height={24} alt={"instagram"} />
+            <Image
+              src={"/x.svg"}
+              priority
+              width={24}
+              height={24}
+              alt={"instagram"}
+            />
           </Button>
         </div>
         <Button
