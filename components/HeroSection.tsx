@@ -10,7 +10,7 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <section className="min-h-[90vh] md:min-h-[70vh] lg:min-h-[85vh] flex flex-col md:flex-row items-center wrapper gap-10 justify-between py-16 md:py-8">
+    <section className="flex flex-col md:flex-row items-center wrapper gap-10 justify-between py-16 md:py-8">
       <SlideIn className="text-center md:text-left" from="left">
         <Badge
           className="text-base rounded-full px-5 py-2 font-semibold inline-flex gap-4"
