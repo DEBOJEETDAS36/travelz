@@ -86,6 +86,13 @@ export default async function Page({
           </div>
 
           <div className="w-full mt-4 sm:justify-center">
+            <Badge
+              className="px-4 py-3 rounded-full bg-card text-base tracking-wide"
+              variant="secondary"
+            >
+              {pkg.departure_date}
+            </Badge>
+
             <Button
               size="lg"
               className="py-6 text-lg rounded-full w-full sm:w-fit"

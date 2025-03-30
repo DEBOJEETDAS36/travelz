@@ -23,6 +23,7 @@ const PackageCard = ({
   route,
   images,
   description,
+  tags,
 }: {
   id: string;
   tour_name: string;
@@ -33,17 +34,22 @@ const PackageCard = ({
   route: string[];
   images: string[];
   description: string;
+  tags: string[];
 }) => {
   return (
-    <Card className="pt-0 overflow-hidden">
+    <Card className="pt-0 overflow-hidden group">
       <Link href={`/${id}`} className="flex flex-col gap-4">
-        <div className="w-full aspect-video bg-primary/20 relative">
-          <OptimizedImage path={images[0]} alt={tour_name} />
+        <div className="w-full aspect-video bg-primary/20 relative overflow-hidden">
+          <OptimizedImage
+            path={images[0]}
+            alt={tour_name}
+            containerClassName="group-hover:scale-105 duration-400 transition-transform"
+          />
           <Badge
-            className="px-4 py-3 rounded-full absolute bottom-0 right-6 bg-card translate-y-1/2 text-base tracking-wide"
+            className="px-4 py-3 rounded-full absolute bottom-0 right-6 bg-card translate-y-1/3 text-base tracking-wide"
             variant="secondary"
           >
-            {departure_date}
+            {tags[0][0].toUpperCase() + tags[0].slice(1)}
           </Badge>
         </div>
         <CardHeader>
@@ -55,9 +61,14 @@ const PackageCard = ({
 
           <div className="text-muted-foreground text-sm truncate">
             {route.map((place, index) => (
-              <span key={index + place} className="hover:text-foreground transition-colors">
+              <span
+                key={index + place}
+                className="hover:text-foreground transition-colors"
+              >
                 {place}
-                {index !== route.length - 1 && <ChevronRight className="inline-block size-4"/>}
+                {index !== route.length - 1 && (
+                  <ChevronRight className="inline-block size-4" />
+                )}
               </span>
             ))}
           </div>

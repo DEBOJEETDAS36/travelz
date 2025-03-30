@@ -7,10 +7,11 @@ import Link from "next/link";
 import SlideIn from "./shared/SlideIn";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
+import OptimizedImage from "./shared/OptimizedImage";
 
 const HeroSection = () => {
   return (
-    <section className="flex flex-col md:flex-row items-center wrapper gap-10 justify-between py-16 md:py-8">
+    <section className="flex flex-col md:flex-row items-center wrapper gap-10 justify-between py-16 md:py-8 overflow-x-clip">
       <SlideIn className="text-center md:text-left" from="left">
         <Badge
           className="text-base rounded-full px-5 py-2 font-semibold inline-flex gap-4"
@@ -71,7 +72,15 @@ const HeroSection = () => {
           </Link>
         </Button>
       </SlideIn>
-      <div className="w-full max-w-72 md:w-2/5 md:max-w-full aspect-square rounded-2xl bg-primary/30 shrink-0" />
+      <div className="w-full max-w-72 md:max-w-128 md:w-2/5 aspect-square rounded-3xl bg-primary/30 shrink-0 relative z-10 translate-y-8 md:-translate-y-0 rotate-12 md:-translate-x-8">
+        <OptimizedImage
+          path="/travelz/Home/home"
+          alt="hero"
+          quality={100}
+          containerClassName="rounded-3xl overflow-hidden z-10 -rotate-12"
+        />
+        {/* <div className="absolute top-0 left-0 w-full h-full rounded-2xl bg-primary/30 blur-3xl" /> */}
+      </div>
     </section>
   );
 };

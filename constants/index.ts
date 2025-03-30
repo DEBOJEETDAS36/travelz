@@ -169,7 +169,7 @@ export const tourCards = [
     ],
     description:
       "Explore the rugged beauty of Spiti Valley, one of India’s most remote and stunning destinations. Witness breathtaking landscapes, ancient monasteries, and high-altitude villages while traversing the Himalayas.",
-    tags: ["mountains", "himalayas", "adventure", "nature", "india"],
+    tags: ["nature", "mountains", "himalayas", "adventure", "india"],
   },
   {
     id: "F1CB61",
@@ -190,7 +190,7 @@ export const tourCards = [
     ],
     description:
       "Bhutan, the 'Land of the Peaceful Dragon,' is known for its stunning landscapes, ancient monasteries, rich culture, and pristine nature. This tour takes you through its picturesque valleys, fortresses, and historical sites while experiencing local traditions.",
-    tags: ["bhutan", "culture", "monasteries", "scenic", "asia"],
+    tags: ["offbeat", "bhutan", "culture", "monasteries", "scenic", "asia"],
   },
   {
     id: "AE7NYP",
@@ -215,7 +215,7 @@ export const tourCards = [
     ],
     description:
       "Experience the untouched beauty of Arunachal Pradesh, a land of towering mountains, pristine forests, and ancient monasteries. This journey takes you through breathtaking landscapes, rich tribal culture, and historical sites, offering an unforgettable adventure in Northeast India.",
-    tags: ["arunachal", "tribal", "wildlife", "monasteries", "himalayas"],
+    tags: ["himalayas", "arunachal", "tribal", "wildlife", "monasteries"],
   },
   {
     id: "3DGRLF",
@@ -242,7 +242,7 @@ export const tourCards = [
     ],
     description:
       "Discover the untouched beauty of Kashmir beyond the usual tourist routes. This exclusive itinerary takes you through breathtaking landscapes, charming valleys, high-altitude lakes, and the mesmerizing Tulip Garden. Experience the rich culture, unique villages, and stunning natural wonders of the region.",
-    tags: ["kashmir", "flowers", "nature", "offbeat", "tulip garden"],
+    tags: ["nature", "kashmir", "flowers", "offbeat", "tulip garden"],
   },
   {
     id: "UMORMH",
@@ -266,7 +266,7 @@ export const tourCards = [
     ],
     description:
       "Experience the best of South Africa with breathtaking landscapes, world-famous wildlife safaris, stunning coastal scenery, and the majestic Victoria Falls. This journey includes a thrilling game drive at Kruger National Park, the scenic beauty of the Garden Route, Cape Town's wonders, and the awe-inspiring Victoria Falls.",
-    tags: ["south africa", "wildlife", "adventure", "victoria falls", "safari"],
+    tags: ["wildlife", "south africa", "adventure", "victoria falls", "safari"],
   },
 ];
 

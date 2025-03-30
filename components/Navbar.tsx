@@ -14,7 +14,7 @@ import { usePathname } from "next/navigation";
 const Navbar = () => {
   const pathName = usePathname();
   return (
-    <header className="wrapper py-4 flex justify-between gap-5 items-center">
+    <header className="wrapper py-4 flex justify-between gap-5 items-center bg-transparent">
       <Link href={"/"}>
         <p className="text-2xl font-semibold">LOGO</p>
       </Link>

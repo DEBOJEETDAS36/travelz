@@ -11,6 +11,7 @@ const OptimizedImage = ({
   height = 360,
   containerClassName = "",
   imageClassName,
+  quality,
 }: {
   path: string;
   width?: number;
@@ -18,6 +19,7 @@ const OptimizedImage = ({
   alt?: string;
   containerClassName?: string;
   imageClassName?: string;
+  quality?: number;
 }) => {
   return (
     <div
@@ -39,6 +41,7 @@ const OptimizedImage = ({
           width={width}
           height={height}
           lqip={{ active: true, quality: 15, blur: 10 }}
+          quality={quality}
         />
       ) : (
         <p>Missing urlEndpoint</p>
