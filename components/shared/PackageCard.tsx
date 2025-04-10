@@ -54,12 +54,12 @@ const PackageCard = ({
         </div>
         <CardHeader>
           <CardTitle className="truncate">{tour_name}</CardTitle>
-          <CardDescription className="truncate">{description}</CardDescription>
+          <CardDescription className="line-clamp-3">{description}</CardDescription>
         </CardHeader>
         <CardContent className="flex flex-col gap-2">
           <p>{duration}</p>
 
-          <div className="text-muted-foreground text-sm truncate">
+          <div className="text-muted-foreground text-sm line-clamp-2">
             {route.map((place, index) => (
               <span
                 key={index + place}
