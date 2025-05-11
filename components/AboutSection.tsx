@@ -35,6 +35,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Accordion } from "@/components/ui/accordion";
 import Faq from "./shared/Faq";
+import OptimizedImage from "./shared/OptimizedImage";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -68,9 +69,12 @@ const AboutSection = () => {
     <section
       ref={sectionRef}
       id="about"
-      className="wrapper flex flex-col gap-10 py-10 md:flex-row"
+      className="wrapper flex flex-col gap-10 py-10 lg:flex-row"
     >
-      <div className="w-full aspect-square max-h-136 md:w-1/2 rounded-2xl bg-primary/30"></div>
+      {/* <div className="w-full aspect-square max-h-136 md:w-1/2 rounded-2xl bg-primary/30">
+      
+      </div> */}
+      <OptimizedImage path="/travelz/whyus" />
       <div className="w-full md:w-1/2">
         <div>
           {/* <p>lor</p> */}

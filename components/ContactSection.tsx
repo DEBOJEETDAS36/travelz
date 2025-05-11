@@ -1,13 +1,17 @@
 import { MailPlus, PhoneCall } from "lucide-react";
 import { Button } from "./ui/button";
+import OptimizedImage from "./shared/OptimizedImage";
 
 const ContactSection = () => {
   return (
     <section
       id="contact"
-      className="wrapper flex flex-col md:flex-row gap-5 py-10"
+      className="wrapper flex flex-col sm:flex-row gap-5 py-10"
     >
-      <div className="bg-primary/30 w-full md:w-1/2 aspect-square max-h-136 rounded-2xl"></div>
+      {/* <div className="bg-primary/30 w-full md:w-1/2 aspect-square max-h-136 rounded-2xl"></div> */}
+
+    <OptimizedImage path="/travelz/faq" containerClassName="aspect-square max-w-md" />
+
       <div className="md:w-1/2">
         <h2 className="h_md text-primary">Contact us</h2>
         <p className="text-lg text-muted-foreground mt-3">
