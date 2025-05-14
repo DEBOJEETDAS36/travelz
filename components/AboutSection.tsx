@@ -69,15 +69,11 @@ const AboutSection = () => {
     <section
       ref={sectionRef}
       id="about"
-      className="wrapper flex flex-col gap-10 py-10 lg:flex-row"
+      className="wrapper grid grid-cols-1 md:grid-cols-2 gap-10 py-10"
     >
-      {/* <div className="w-full aspect-square max-h-136 md:w-1/2 rounded-2xl bg-primary/30">
-      
-      </div> */}
-      <OptimizedImage path="/travelz/whyus" />
-      <div className="w-full md:w-1/2">
+      <OptimizedImage path="/travelz/whyus" containerClassName="aspect-square max-h-136 rounded-2xl overflow-hidden" />
+      <div className="w-full">
         <div>
-          {/* <p>lor</p> */}
           <h2 className="h_md text-primary fade_in">Why us?</h2>
           <ul className="mt-5 space-y-4 text-2xl list-disc marker:text-primary ml-6 text-muted-foreground">
             <li className="fade_in">Best prices.</li>
