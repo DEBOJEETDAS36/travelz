@@ -87,18 +87,18 @@ const AboutSection = () => {
           <p className="h_sm text-primary">FAQs</p>
           <Accordion type="single" collapsible className="w-full">
             <Faq
-              title="Lorem ipsum dolor?"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis cupiditate quae veritatis nam illo magnam delectus architecto pariatur temporibus expedita aperiam cum, modi possimus dicta consequatur optio. Dolorum, sapiente at!"
+              title="Do you have forex related services?"
+              description="Yes, we have forex related services"
               value="item-1"
             />
             <Faq
-              title="Lorem ipsum dolor?"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis cupiditate quae veritatis nam illo magnam delectus architecto pariatur temporibus expedita aperiam cum, modi possimus dicta consequatur optio. Dolorum, sapiente at!"
+              title="Do you have fixed departures?"
+              description="Yes, we have fixed departures"
               value="item-2"
             />
             <Faq
-              title="Lorem ipsum dolor?"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis cupiditate quae veritatis nam illo magnam delectus architecto pariatur temporibus expedita aperiam cum, modi possimus dicta consequatur optio. Dolorum, sapiente at!"
+              title="Is the tour customizable?"
+              description="Yes, the tours are customizable and we offer flexibility"
               value="item-3"
             />
           </Accordion>
