@@ -34,9 +34,9 @@ export default async function Page({
   }
   return (
     <main>
-      <section className="flex flex-col gap-5 mt-5 mb-10 max-w-5xl px-5 md:px-6 lg:px-3 mx-auto pb-10">
+      <section className="flex flex-col gap-5 mb-10 wrapper pb-10">
         <div className="w-full">
-          <Carousel className="aspect-square max-h-112 w-full bg-accent relative rounded-2xl overflow-hidden">
+          <Carousel className="aspect-square sm:aspect-video max-h-140 w-full bg-accent relative rounded-2xl overflow-hidden">
             <CarouselContent className="text-4xl font-semibold">
               {pkg.images.map((image, index) => (
                 <CarouselItem key={image + index} className="w-full">
@@ -49,45 +49,47 @@ export default async function Page({
               ))}
             </CarouselContent>
 
-            <div className="flex items-center gap-2 absolute ring-0 bottom-0 w-full justify-end p-3">
+            <div className="flex items-center gap-2 absolute z-10 ring-0 bottom-0 w-full justify-end p-3 pointer-events-none">
               <CarouselPrevious
                 variant="ghost"
-                className="rounded-full h-12 w-12 bg-background"
+                className="rounded-full h-12 w-12 bg-background pointer-events-auto"
               />
               <div className="h-5 w-1 rounded-full bg-accent" />
               <CarouselNext
                 variant="ghost"
-                className="rounded-full h-12 w-12 bg-background"
+                className="rounded-full h-12 w-12 bg-background pointer-events-auto"
               />
             </div>
           </Carousel>
         </div>
-
-        <div className="text-center">
-          <h1 className="h_md text-primary">{pkg.tour_name}</h1>
-
-          <p className="text-xl mt-3">{pkg.description}</p>
+        <div className="text-center relative pointer-events-none md:-translate-y-8 transition-transform">
+          <h1 className="h_md relative text-primary z-10 bg-background md:pt-5 md:px-10 w-fit mx-auto rounded-t-3xl">
+            {pkg.tour_name}
+          </h1>
+          <p className="text-xl mt-3 text-muted-foreground">
+            {pkg.description}
+          </p>
 
           <div className="flex gap-2.5 justify-center flex-wrap mt-4">
             {pkg.route?.map((item, index) => (
               <Badge
                 variant="outline"
-                className="px-3 py-2 text-base rounded-full text-muted-foreground hover:text-primary hover:border-primary transition-all"
+                className="px-3 py-2 text-base rounded-full text-muted-foreground hover:text-primary hover:border-primary transition-all pointer-events-auto"
                 key={item + index}
               >
                 {item}
               </Badge>
             ))}
           </div>
-          <div className="mt-4 flex flex-col gap-3 justify-center items-center text-sm text-muted-foreground">
+          {/* <div className="mt-4 flex flex-col gap-3 justify-center items-center text-sm text-muted-foreground">
             {pkg.price.map((item, index) => (
               <p key={index}>{item}</p>
             ))}
-          </div>
+          </div> */}
 
           <div className="w-full mt-4 sm:justify-center">
             <Badge
-              className="px-4 py-3 rounded-full bg-card text-base tracking-wide"
+              className="px-4 py-3 rounded-full bg-card text-base tracking-wide pointer-events-auto"
               variant="secondary"
             >
               {pkg.departure_date}
@@ -95,7 +97,7 @@ export default async function Page({
 
             <Button
               size="lg"
-              className="py-6 text-lg rounded-full w-full sm:w-fit"
+              className="py-6 text-lg rounded-full w-full sm:w-fit pointer-events-auto"
             >
               Book now
             </Button>

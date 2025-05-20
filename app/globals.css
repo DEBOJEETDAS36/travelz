@@ -47,7 +47,8 @@
 
 .dark {
   /* --background: oklch(0.129 0.042 264.695); */
-  --background: oklch(10% 0.071 264.695);
+  /* --background: oklch(10% 0.071 264.695); */
+  --background:  oklch(13% 0.071 264.695);
   --foreground: oklch(0.984 0.003 247.858);
   /* --card: oklch(0.129 0.042 264.695); */
   --card: oklch(13% 0.071 264.695);
@@ -144,7 +145,7 @@
     @apply text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold;
   }
   .h_md {
-    @apply text-3xl sm:text-4xl md:text-5xl font-semibold;
+    @apply text-3xl sm:text-4xl font-semibold;
   }
   .h_sm {
     @apply text-2xl md:text-3xl font-semibold;
