@@ -29,7 +29,7 @@ const Footer = () => {
                 <PhoneCall className="text-primary size-5" /> +91-8005993442
               </li>
               <li className="inline-flex items-center gap-3">
-                <MailPlus className="text-primary size-5" /> info@orgototours.in
+                <MailPlus className="text-primary size-5" /> sujay.orgototours@gmail.com
               </li>
             </ul>
           </div>
