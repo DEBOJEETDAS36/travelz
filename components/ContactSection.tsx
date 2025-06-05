@@ -18,10 +18,9 @@ const ContactSection = () => {
       <div>
         <h2 className="h_md text-primary">Contact us</h2>
         <p className="text-lg text-muted-foreground mt-3">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis
-          laborum ex, fuga consequatur harum sequi cupiditate expedita deserunt
-          porro minus, labore molestias impedit distinctio voluptatum voluptatem
-          obcaecati nesciunt. Magnam, mollitia?
+          Have queries or need assistance planning your next adventure? 
+          Orgoto Tours is here to assist you. 
+          Explore our catalogue and reach out to us today to turn your dream trip into reality!
         </p>
         <div className="grid gap-3 mt-5 lg:grid-cols-2">
           <Button variant="secondary" size="lg" className="py-6 text-base">
