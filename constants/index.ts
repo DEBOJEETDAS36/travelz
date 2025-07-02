@@ -268,6 +268,128 @@ export const tourCards = [
       "Experience the best of South Africa with breathtaking landscapes, world-famous wildlife safaris, stunning coastal scenery, and the majestic Victoria Falls. This journey includes a thrilling game drive at Kruger National Park, the scenic beauty of the Garden Route, Cape Town's wonders, and the awe-inspiring Victoria Falls.",
     tags: ["wildlife", "south africa", "adventure", "victoria falls", "safari"],
   },
+  {
+    id: "MMOQIH",
+    tour_name:
+      "AMAZING ANDAMAN",
+    duration: "9 Nights / 10 Days",
+    season: "WINTER SPECIAL – 2025",
+    departure_date: "7th Feb, 2025",
+    images: ["/travelz/Andaman/img1.jpg"],
+    // price: ["INR 135727/- + USD 2342 PER PERSON"],
+    route: [
+      "Kolkata",
+      "Port Blair",
+      "Havelock",
+      "Neil Island",
+      "Ranagat",
+      "Mayabunder",
+      "Diglipur",
+      "Kolkata"
+    ],
+    description:
+      "Experience the best of Andaman with pristine turquoise waters, sun-kissed beaches, lush tropical forests, rich marine life, and thrilling adventures—from exploring Havelock Island and Radhanagar Beach to snorkeling at Neil Island and discovering history at Cellular Jail",
+    tags: ["adventure", "andaman", "island", "port blair", "amazing"],
+  },
+  {
+    id: "KKKRMH",
+    tour_name:
+      "ANNANYA MADHYA PRADESH",
+    duration: "10 Nights / 11 Days",
+    season: "WINTER SPECIAL – 2025",
+    departure_date: "10th Dec, 2025",
+    images: ["/travelz/MP/img1.jpg"],
+    // price: ["INR 135727/- + USD 2342 PER PERSON"],
+    route: [
+      "Kolkata",
+      "Nagpur",
+      "Pench",
+      "Panchmarhi",
+      "Satpura",
+      "Bhopal",
+      "Maheshwar",
+      "Mandu",
+      "Ujjain",
+      "Indore",
+      "Kolkata",
+    ],
+    description:
+      "Experience the best of Madhya Pradesh with a perfect blend of wildlife, heritage, nature, and spirituality. This unforgettable journey takes you from the bustling streets of Kolkata to the tiger-rich forests of Pench and the serene hills of Panchmarhi. Explore the rugged beauty of Satpura, the cultural vibrance of Bhopal, the regal charm of Maheshwar and Mandu, the spiritual aura of Ujjain, and the lively city of Indore—before heading back to Kolkata with memories to last a lifetime.Experience the best of South Africa with breathtaking landscapes, world-famous wildlife safaris, stunning coastal scenery, and the majestic Victoria Falls. This journey includes a thrilling game drive at Kruger National Park, the scenic beauty of the Garden Route, Cape Town's wonders, and the awe-inspiring Victoria Falls.",
+    tags: ["wildlife", "madhya pradesh", "heritage", "hills", "pilgrimage"],
+  },
+  {
+    id: "HOLA11",
+    tour_name:
+      "INVISIBLE KUTCH",
+    duration: "6 Nights / 7 Days",
+    season: "WINTER SPECIAL – 2025",
+    departure_date: "3rd Dec, 2025",
+    images: ["/travelz/Kutch/img1.jpg"],
+    // price: ["INR 135727/- + USD 2342 PER PERSON"],
+    route: [
+      "Kolkata",
+      "Ahmedabad",
+      "Little Rann of Kutch",
+      "Bhuj",
+      "Mandvi Beach",
+      "Dholavira",
+      "Ahmedabad",
+      "Kolkata",
+    ],
+    description:
+      "Experience the vibrant charm of Kutch with its vast white salt desert, rich cultural heritage, and colorful traditions. This journey takes you through the stunning landscapes of the Rann of Kutch, the architectural marvels of Bhuj, traditional handicraft villages, and the unique wildlife of the region—offering a perfect blend of nature, culture, and desert adventure.Experience the best of South Africa with breathtaking landscapes, world-famous wildlife safaris, stunning coastal scenery, and the majestic Victoria Falls. This journey includes a thrilling game drive at Kruger National Park, the scenic beauty of the Garden Route, Cape Town's wonders, and the awe-inspiring Victoria Falls.",
+    tags: ["offbeat", "rann of kutch", "kutch", "road to heaven", "leisure travel"],
+  },
+  {
+    id: "DJDKJJ",
+    tour_name:
+      "OFFBEAT ODISHA",
+    duration: "7 Nights / 8 Days",
+    season: "SUMMER SPECIAL – 2025",
+    departure_date: "5th Nov, 2025",
+    images: ["/travelz/Odisha/img1.jpg"],
+    // price: ["INR 135727/- + USD 2342 PER PERSON"],
+    route: [
+      "Kolkata",
+      "Kuldiha",
+      "Satkhosia",
+      "Mahanadi River",
+      "Debrigarh",
+      "Keonjhar",
+      "Kolkata",
+    ],
+    description:
+      "Experience the untamed beauty of Eastern India with a journey through the forests and rivers of Odisha. Starting from Kolkata, this adventure takes you to the wildlife-rich Kuldiha Sanctuary, the breathtaking gorges of Satkosia along the Mahanadi River, and the serene landscapes of Debrigarh. Discover hidden waterfalls in Keonjhar before returning to Kolkata—revived by nature and rich in unforgettable memories.",
+    tags: ["offbeat", "odisha", "jungle safari", "waterfall", "wildlife sanctuary"],
+  },
+  {
+    id: "NORRFS",
+    tour_name:
+      "RARE RAJASTHAN",
+    duration: "9 Nights / 10 Days",
+    season: "WINTER SPECIAL – 2026",
+    departure_date: "27th Jan, 2026",
+    images: ["/travelz/Rajasthan/img1.jpg"],
+    // price: ["INR 135727/- + USD 2342 PER PERSON"],
+    route: [
+      "Kolkata",
+      "Bundi",
+      "Chittorgarh",
+      "Kumbhalgarh",
+      "Nathdwara",
+      "Ranakpur",
+      "Bera",
+      "Jodhpur",
+      "Khimsar",
+      "Khichan",
+      "Gajner",
+      "Mandawa",
+      "Kolkata",
+    ],
+    description:
+      "Discover the royal charm of Rajasthan on a journey from Kolkata through Bundi, Chittorgarh, and Kumbhalgarh. Explore sacred Nathdwara, marble marvels of Ranakpur, spot leopards in Bera, and soak in Jodhpur’s blue beauty. Unwind in Khimsar, witness cranes in Khichan, and admire Mandawa’s painted havelis.",  
+    tags: ["heritage", "rajasthan", "rare", "royal", "palace"],
+  },
 ];
 
 export const tours = [
@@ -979,4 +1101,654 @@ export const tours = [
       },
     ],
   },
+  {
+    id: "MMOQIH",
+    tour_name: "AMAZING ANDAMAN",
+    duration: "9 Nights / 10 Days",
+    season: "WINTER SPECIAL – 2025",
+    departure_date: "7th Feb, 2025",
+    images: [
+      "/travelz/Andaman/img1.jpg",
+      "/travelz/Andaman/img2.jpg",
+      "/travelz/Andaman/img3.jpg",
+    ],
+    // price: ["INR 135727/- + USD 2342 PER PERSON"],
+    route: [
+      "Kolkata",
+      "Port Blair",
+      "Havelock",
+      "Neil Island",
+      "Ranaghat",
+      "Mayabunder",
+      "Diglipur",
+      "Kolkata"
+    ],
+    description:
+      "Experience the best of South Africa with breathtaking landscapes, world-famous wildlife safaris, stunning coastal scenery, and the majestic Victoria Falls. This journey includes a thrilling game drive at Kruger National Park, the scenic beauty of the Garden Route, Cape Town's wonders, and the awe-inspiring Victoria Falls.",
+    itinerary: [
+      {
+      day: 1,
+      route: "Arrival at Port Blair",
+      activities: [
+        "Arrive at Port Blair & transfer to hotel",
+        "Visit Cellular Jail",
+        "Explore Marina Park",
+        "Attend Light & Sound Show",
+        "Overnight stay at Port Blair"
+    ],
+    meals: ["Lunch", "Dinner"]
+  },
+  {
+    day: 2,
+    route: "Port Blair to Havelock Island",
+    activities: [
+      "Transfer to Havelock Island by ferry",
+      "Arrival & hotel check-in at Havelock",
+      "Visit Radhanagar Beach (Beach No. 7)",
+      "Return to resort",
+      "Overnight stay at Havelock"
+    ],
+    meals: ["Breakfast", "Lunch", "Dinner"]
+  },
+  {
+    day: 3,
+    route: "Havelock Island Exploration",
+    activities: [
+      "Leisure day at Havelock",
+      "Visit Kalapathar Beach",
+      "Optional Elephant Beach trip (₹1500/person)",
+      "Overnight stay at Havelock"
+    ],
+    meals: ["Breakfast", "Lunch", "Dinner"]
+  },
+  {
+    day: 4,
+    route: "Havelock – Leisure & Activities",
+    activities: [
+      "Leisure day at Havelock",
+      "Visit Kalapathar Beach",
+      "Optional Elephant Beach trip (₹1500/person)",
+      "Overnight stay at Havelock"
+    ],
+    meals: ["Breakfast", "Lunch", "Dinner"]
+  },
+  {
+    day: 5,
+    route: "Neil Island to Port Blair",
+    activities: [
+      "Check out from Neil Island",
+      "Ferry transfer to Port Blair",
+      "Evening local sightseeing",
+      "Overnight stay at Port Blair"
+    ],
+    meals: ["Breakfast", "Lunch", "Dinner"]
+  },
+  {
+    day: 6,
+    route: "Port Blair – Baratang – Rangat – Mayabunder",
+    activities: [
+      "Early trip to Baratang",
+      "Visit Limestone Caves & Mud Volcano",
+      "Boat ride through Mangrove Creeks",
+      "Continue to Rangat & visit beaches/falls",
+      "Overnight stay at Mayabunder"
+    ],
+    meals: ["Breakfast", "Lunch", "Dinner"]
+  },
+  {
+    day: 7,
+    route: "Trip to Diglipur – Ross & Smith Islands",
+    activities: [
+      "Early departure to Diglipur",
+      "Visit Ross & Smith Islands",
+      "Explore Kalipur Beach",
+      "Return to Mayabunder",
+      "Overnight stay at Mayabunder"
+    ],
+    meals: ["Breakfast", "Lunch", "Dinner"]
+  },
+  {
+    day: 8,
+    route: "Mayabunder to Port Blair",
+    activities: [
+      "Visit Karmatang Beach",
+      "Leisure & beach activities",
+      "Return to Port Blair",
+      "Overnight stay at Port Blair"
+    ],
+    meals: ["Breakfast", "Lunch", "Dinner"]
+  },
+  {
+    day: 9,
+    route: "Departure",
+    activities: [
+      "Check out from hotel",
+      "Transfer to airport",
+      "Departure from Port Blair"
+    ],
+    meals: ["Breakfast"]
+  },
+  ],
+},
+{
+    id: "KKKRMH",
+    tour_name: "ANNANYA MADHYA PRADESH",
+    duration: "10 Nights / 11 Days",
+    season: "WINTER SPECIAL – 2025",
+    departure_date: "10th Dec, 2025",
+    images: [
+      "/travelz/MP/img1.jpg",
+      "/travelz/MP/img2.jpg",
+      "/travelz/MP/img3.jpg",
+    ],
+    // price: ["INR 135727/- + USD 2342 PER PERSON"],
+    route: [
+      "Kolkata",
+      "Nagpur",
+      "Pench",
+      "Panchmarhi",
+      "Satpura",
+      "Bhopal",
+      "Maheshwar",
+      "Mandu",
+      "Ujjain",
+      "Indore",
+      "Kolkata"
+    ],
+    description:
+      "Experience the best of Madhya Pradesh with a perfect blend of wildlife, heritage, nature, and spirituality. This unforgettable journey takes you from the bustling streets of Kolkata to the tiger-rich forests of Pench and the serene hills of Panchmarhi. Explore the rugged beauty of Satpura, the cultural vibrance of Bhopal, the regal charm of Maheshwar and Mandu, the spiritual aura of Ujjain, and the lively city of Indore—before heading back to Kolkata with memories to last a lifetime.Experience the best of South Africa with breathtaking landscapes, world-famous wildlife safaris, stunning coastal scenery, and the majestic Victoria Falls. This journey includes a thrilling game drive at Kruger National Park, the scenic beauty of the Garden Route, Cape Town's wonders, and the awe-inspiring Victoria Falls.",
+    itinerary: [
+       {
+    day: 1,
+    route: "Arrive Nagpur – Pench",
+    activities: [
+      "Arrival at Nagpur Airport",
+      "Transfer to Pench",
+      "Check-in at resort",
+      "Leisure evening",
+      "Overnight stay at Pench"
+    ],
+    meals: ["Dinner"]
+  },
+  {
+    day: 2,
+    route: "Pench Safari Experience",
+    activities: [
+      "Morning at leisure",
+      "Afternoon Jeep Safari at Pench Tiger Reserve",
+      "Explore the Jungle Book inspiration sites",
+      "Overnight stay at Pench"
+    ],
+    meals: ["Breakfast", "Lunch", "Dinner"]
+  },
+  {
+    day: 3,
+    route: "Pench to Panchmarhi",
+    activities: [
+      "Breakfast & checkout",
+      "Drive to Panchmarhi",
+      "Resort check-in",
+      "Leisure time",
+      "Overnight stay at Panchmarhi"
+    ],
+    meals: ["Breakfast", "Lunch", "Dinner"]
+  },
+  {
+    day: 4,
+    route: "Panchmarhi Sightseeing",
+    activities: [
+      "Morning Jungle Safari",
+      "Visit Bee Falls, Pandav Caves, Dhupgarh, Reechgarh, Panchmarhi Lake",
+      "Return to resort",
+      "Overnight stay at Panchmarhi"
+    ],
+    meals: ["Breakfast", "Lunch", "Dinner"]
+  },
+  {
+    day: 5,
+    route: "Panchmarhi – Satpura Tiger Reserve",
+    activities: [
+      "Breakfast & checkout",
+      "Transfer to Satpura",
+      "Afternoon Jungle Safari",
+      "Optional night safari available",
+      "Overnight stay at Satpura"
+    ],
+    meals: ["Breakfast", "Lunch", "Dinner"]
+  },
+  {
+    day: 6,
+    route: "Satpura – Bhimbetka – Bhojpur – Bhopal",
+    activities: [
+      "Checkout after breakfast",
+      "Visit Bhimbetka Rock Caves (UNESCO Site)",
+      "Explore Bhojpur Temple & Taj-ul-Masjid",
+      "Arrive in Bhopal & check-in",
+      "Overnight stay at Bhopal"
+    ],
+    meals: ["Breakfast", "Lunch", "Dinner"]
+  },
+  {
+    day: 7,
+    route: "Bhopal – Sanchi Stupa Visit",
+    activities: [
+      "Visit Sanchi Stupa (UNESCO Site)",
+      "Explore local attractions in Bhopal",
+      "Overnight stay at Bhopal"
+    ],
+    meals: ["Breakfast", "Lunch", "Dinner"]
+  },
+  {
+    day: 8,
+    route: "Bhopal – Omkareshwar – Maheshwar",
+    activities: [
+      "Checkout & drive to Maheshwar",
+      "En route visit Omkareshwar Jyotirlinga Temple",
+      "Evening at riverside resort in Maheshwar",
+      "Overnight stay at Maheshwar"
+    ],
+    meals: ["Breakfast", "Lunch", "Dinner"]
+  },
+  {
+    day: 9,
+    route: "Maheshwar – Mandu",
+    activities: [
+      "Visit Narmada Ghat, Ahilyeshwar & Raj Rajeshwar Temples",
+      "Explore local Maheshwari saree shopping",
+      "Drive to Mandu & visit Jahaz Mahal, Rani Roopmati Pavilion, Baz Bahadur Palace",
+      "Overnight stay at Mandu"
+    ],
+    meals: ["Breakfast", "Lunch", "Dinner"]
+  },
+  {
+    day: 10,
+    route: "Mandu to Ujjain",
+    activities: [
+      "Drive to Ujjain",
+      "Check-in & visit major temples",
+      "Explore Mahakal Corridor",
+      "Overnight stay at Ujjain"
+    ],
+    meals: ["Breakfast", "Lunch", "Dinner"]
+  },
+  {
+    day: 11,
+    route: "Ujjain – Indore Departure",
+    activities: [
+      "Early visit to Mahakaleshwar Temple",
+      "Breakfast & transfer to Indore",
+      "Visit Indore sightseeing (if time permits)",
+      "Drop at Indore Airport for return flight"
+    ],
+    meals: ["Breakfast", "Lunch"]
+  }
+  ],
+},
+{
+    id: "HOLA11",
+    tour_name: "INVISIBLE KUTCH",
+    duration: "6 Nights / 7 Days",
+    season: "WINTER SPECIAL – 2025",
+    departure_date: "3rd Dec, 2025",
+    images: [
+      "/travelz/Kutch/img1.jpg",
+      "/travelz/Kutch/img2.jpg",
+      "/travelz/Kutch/img3.jpg",
+    ],
+    // price: ["INR 135727/- + USD 2342 PER PERSON"],
+    route: [
+      "Kolkata",
+      "Ahmedabad",
+      "Little Rann of Kutch",
+      "Bhuj",
+      "Mandvi Beach",
+      "Dholavira",
+      "Ahmedabad",
+      "Kolkata"
+    ],
+    description:
+      "Experience the vibrant charm of Kutch with its vast white salt desert, rich cultural heritage, and colorful traditions. This journey takes you through the stunning landscapes of the Rann of Kutch, the architectural marvels of Bhuj, traditional handicraft villages, and the unique wildlife of the region—offering a perfect blend of nature, culture, and desert adventure.Experience the best of Madhya Pradesh with a perfect blend of wildlife, heritage, nature, and spirituality. This unforgettable journey takes you from the bustling streets of Kolkata to the tiger-rich forests of Pench and the serene hills of Panchmarhi. Explore the rugged beauty of Satpura, the cultural vibrance of Bhopal, the regal charm of Maheshwar and Mandu, the spiritual aura of Ujjain, and the lively city of Indore—before heading back to Kolkata with memories to last a lifetime.Experience the best of South Africa with breathtaking landscapes, world-famous wildlife safaris, stunning coastal scenery, and the majestic Victoria Falls. This journey includes a thrilling game drive at Kruger National Park, the scenic beauty of the Garden Route, Cape Town's wonders, and the awe-inspiring Victoria Falls.",
+    itinerary: [
+       {
+    day: 1,
+    route: "Ahmedabad – Modhera – Patan – Little Rann of Kutch",
+    activities: [
+      "Arrival at Ahmedabad Airport",
+      "Visit Modhera Sun Temple",
+      "Explore Rani ki Vav (UNESCO site) in Patan",
+      "Transfer to Little Rann of Kutch",
+      "Overnight stay at Little Rann"
+    ],
+    meals: ["Breakfast", "Lunch"]
+  },
+  {
+    day: 2,
+    route: "Little Rann – Bhuj",
+    activities: [
+      "Early morning Wild Ass Sanctuary Safari",
+      "Spot flamingos, wild ass & salt farming",
+      "Breakfast & checkout",
+      "Drive to Bhuj with en route lunch",
+      "Overnight stay at Bhuj"
+    ],
+    meals: ["Breakfast", "Lunch", "Dinner"]
+  },
+  {
+    day: 3,
+    route: "Bhuj Local & Mandvi Beach",
+    activities: [
+      "Visit Swaminarayan Temple, Aina Mahal, Parag Mahal, Kutch Museum, Bhujodi",
+      "Lunch and drive to Mandvi Beach",
+      "Sunset & leisure time at Arabian Sea",
+      "Return to Bhuj for overnight stay"
+    ],
+    meals: ["Breakfast", "Lunch", "Dinner"]
+  },
+  {
+    day: 4,
+    route: "Great Rann of Kutch – Rann Utsav (Full Moon Night)",
+    activities: [
+      "Checkout & transfer to Tent City, Dhordo",
+      "Participate in Rann Utsav activities",
+      "Enjoy Full Moon night at White Rann",
+      "Overnight stay in Rann Festival Tent"
+    ],
+    meals: ["Breakfast", "Lunch", "Dinner"]
+  },
+  {
+    day: 5,
+    route: "Dholavira via Road to Heaven & Kalo Dungar",
+    activities: [
+      "Visit Harappan site of Dholavira (Indus Valley Civilization)",
+      "Drive via scenic 'Road to Heaven'",
+      "Explore Kalo Dungar (Black Hill)",
+      "Return for overnight stay"
+    ],
+    meals: ["Breakfast", "Lunch", "Dinner"]
+  },
+  {
+    day: 6,
+    route: "Bhuj – Ahmedabad",
+    activities: [
+      "Checkout after breakfast",
+      "Drive to Ahmedabad with en route lunch",
+      "Visit Sabarmati Ashram",
+      "Check-in & overnight stay in Ahmedabad"
+    ],
+    meals: ["Breakfast", "Lunch", "Dinner"]
+  },
+  {
+    day: 7,
+    route: "Ahmedabad Sightseeing & Departure",
+    activities: [
+      "Morning local sightseeing in Ahmedabad",
+      "Lunch en route to airport",
+      "Drop at airport for return flight"
+    ],
+    meals: ["Breakfast", "Lunch"]
+  }
+  ],
+},
+{
+    id: "DJDKJJ",
+    tour_name: "OFFBEAT ODISHA",
+    duration: "7 Nights / 8 Days",
+    season: "WINTER SPECIAL – 2025",
+    departure_date: "5th Nov, 2025",
+    images: [
+      "/travelz/Odisha/img1.jpg",
+      "/travelz/Odisha/img2.jpg",
+      "/travelz/Odisha/img3.jpg",
+    ],
+    // price: ["INR 135727/- + USD 2342 PER PERSON"],
+    route: [
+      "Kolkata",
+      "Kuldiha",
+      "Satkhosia",
+      "Mahanadi River",
+      "Debrigarh",
+      "Keonjhar",
+      "Kolkata"
+    ],
+    description:
+      "Experience the untamed beauty of Eastern India with a journey through the forests and rivers of Odisha. Starting from Kolkata, this adventure takes you to the wildlife-rich Kuldiha Sanctuary, the breathtaking gorges of Satkosia along the Mahanadi River, and the serene landscapes of Debrigarh. Discover hidden waterfalls in Keonjhar before returning to Kolkata—revived by nature and rich in unforgettable memories.",
+    itinerary: [
+      {
+    day: 1,
+    route: "Kolkata to Kuldiha",
+    activities: [
+      "Early morning departure from Kolkata",
+      "En route breakfast & lunch",
+      "Check-in at Kuldiha Nature Camp",
+      "Visit nearby waterfalls by walk",
+      "Overnight stay at Kuldiha"
+    ],
+    meals: ["Packed Breakfast", "Lunch", "Snacks", "Dinner"]
+  },
+  {
+    day: 2,
+    route: "Kuldiha Jungle Safari",
+    activities: [
+      "Morning safari inside Kuldiha Forest",
+      "Visit two scenic waterfalls",
+      "Leisure time at camp",
+      "Explore nearby areas on foot",
+      "Overnight stay at Kuldiha"
+    ],
+    meals: ["Breakfast", "Lunch", "Snacks", "Dinner"]
+  },
+  {
+    day: 3,
+    route: "Kuldiha to Satkosia",
+    activities: [
+      "Morning nature walk & breakfast",
+      "Drive to Satkosia via lunch stop",
+      "Evening arrival & check-in at resort",
+      "Relax with tea & snacks",
+      "Overnight stay at Satkosia"
+    ],
+    meals: ["Breakfast", "Lunch", "Snacks", "Dinner"]
+  },
+  {
+    day: 4,
+    route: "Satkosia River & Safari Experience",
+    activities: [
+      "Morning boat ride on Mahanadi River (spot crocodiles & turtles)",
+      "Evening jungle safari at Satkosia Tiger Reserve",
+      "Leisure evening at resort",
+      "Overnight stay at Satkosia"
+    ],
+    meals: ["Breakfast", "Lunch", "Snacks", "Dinner"]
+  },
+  {
+    day: 5,
+    route: "Satkosia to Debrigarh",
+    activities: [
+      "Checkout after breakfast",
+      "Drive to Debrigarh Wildlife Sanctuary",
+      "En route lunch & evening arrival",
+      "Leisure time to explore nearby areas",
+      "Overnight stay at Debrigarh"
+    ],
+    meals: ["Breakfast", "Lunch", "Snacks", "Dinner"]
+  },
+  {
+    day: 6,
+    route: "Debrigarh Safari & Hirakud Dam",
+    activities: [
+      "Morning jungle safari",
+      "Afternoon rest & lunch",
+      "Evening boat ride at Hirakud Dam",
+      "Overnight stay at Debrigarh"
+    ],
+    meals: ["Breakfast", "Lunch", "Snacks", "Dinner"]
+  },
+  {
+    day: 7,
+    route: "Debrigarh to Keonjhar",
+    activities: [
+      "Breakfast & checkout",
+      "Drive to Keonjhar via lunch stop",
+      "Visit waterfalls (time permitting)",
+      "Check-in & dinner",
+      "Overnight stay at Keonjhar"
+    ],
+    meals: ["Breakfast", "Lunch", "Snacks", "Dinner"]
+  },
+  {
+    day: 8,
+    route: "Keonjhar to Kolkata",
+    activities: [
+      "Relaxed breakfast & checkout",
+      "Drive back to Kolkata",
+      "En route lunch & snacks",
+      "Tour ends with great memories"
+    ],
+    meals: ["Breakfast"]
+  }   
+    ],
+},
+{
+    id: "NORRFS",
+    tour_name: "RARE RAJASTHAN",
+    duration: "9 Nights / 10 Days",
+    season: "WINTER SPECIAL – 2026",
+    departure_date: "27th Jan, 2026",
+    images: [
+      "/travelz/Rajasthan/img1.jpg",
+      "/travelz/Rajasthan/img2.jpg",
+      "/travelz/Rajasthan/img3.jpg",
+    ],
+    // price: ["INR 135727/- + USD 2342 PER PERSON"],
+    route: [
+      "Kolkata",
+      "Bundi",
+      "Chittorgarh",
+      "Kumbhalgarh",
+      "Nathdwara",
+      "Ranakpur",
+      "Bera",
+      "Jodhpur",
+      "Khimsar",
+      "Khichan",
+      "Gajner",
+      "Mandawa",
+      "Kolkata"
+    ],
+    description:
+      "Discover the royal charm of Rajasthan on a journey from Kolkata through Bundi, Chittorgarh, and Kumbhalgarh. Explore sacred Nathdwara, marble marvels of Ranakpur, spot leopards in Bera, and soak in Jodhpur’s blue beauty. Unwind in Khimsar, witness cranes in Khichan, and admire Mandawa’s painted havelis.",  
+    itinerary: [
+      {
+  day: 1,
+  route: "Kolkata to Bundi",
+  activities: [
+    "Arrive at Jaipur Airport, transfer to Bundi",
+    "Visit Taragarh Fort (Star Fort), Bundi",
+    "Explore prehistoric roots & architecture",
+    "Overnight stay at Bundi"
+  ],
+  meals: ["Lunch", "Dinner"]
+},
+{
+  day: 2,
+  route: "Bundi to Chittor",
+  activities: [
+    "Morning sightseeing at Bundi",
+    "Drive to Chittorgarh",
+    "Visit Chittorgarh Fort (UNESCO site)",
+    "See Padmini Palace & Meera Temple",
+    "Overnight stay at Chittor"
+  ],
+  meals: ["Breakfast", "Lunch", "Dinner"]
+},
+{
+  day: 3,
+  route: "Chittor to Kumbhalgarh via Nathdwara & Ranakpur",
+  activities: [
+    "Visit Shrinathji Temple, Nathdwara",
+    "Explore Ranakpur Jain Temples",
+    "Drive to Kumbhalgarh Fort (Great Wall of India)",
+    "Overnight stay at Kumbhalgarh"
+  ],
+  meals: ["Breakfast", "Lunch", "Dinner"]
+},
+{
+  day: 4,
+  route: "Kumbhalgarh to Jawai (Bera)",
+  activities: [
+    "Transfer to Jawai after breakfast",
+    "Evening leopard safari at Bera",
+    "Explore lava rock caves in Aravallis",
+    "Overnight stay at Jawai"
+  ],
+  meals: ["Breakfast", "Lunch", "Dinner"]
+},
+{
+  day: 5,
+  route: "Jawai to Khimsar via Jodhpur",
+  activities: [
+    "Visit Mehrangarh Fort, Jodhpur",
+    "Transfer to 16th-century Khimsar Fort",
+    "Enjoy fort gardens & desert views",
+    "Overnight stay at Khimsar"
+  ],
+  meals: ["Breakfast", "Lunch", "Dinner"]
+},
+{
+  day: 6,
+  route: "Khimsar to Gajner via Khichan",
+  activities: [
+    "Visit Khichan bird village (Demoiselle cranes)",
+    "Drive to Gajner, check-in at hotel",
+    "Leisure evening at Gajner",
+    "Overnight stay at Gajner"
+  ],
+  meals: ["Breakfast", "Lunch", "Dinner"]
+},
+{
+  day: 7,
+  route: "Gajner to Mandawa",
+  activities: [
+    "Explore Gajner Wildlife Sanctuary",
+    "Spot rare desert flora & fauna",
+    "Transfer to Mandawa",
+    "Overnight stay at Mandawa"
+  ],
+  meals: ["Breakfast", "Lunch", "Dinner"]
+},
+{
+  day: 8,
+  route: "Explore Mandawa",
+  activities: [
+    "Visit Mandawa Fort & havelis",
+    "Admire Krishna murals & mirror art",
+    "Local heritage walk",
+    "Overnight stay at Mandawa"
+  ],
+  meals: ["Breakfast", "Lunch", "Dinner"]
+},
+{
+  day: 9,
+  route: "Mandawa to Sariska",
+  activities: [
+    "Sightseeing in Gajner (morning)",
+    "Drive to Sariska Tiger Reserve",
+    "Relax at resort amidst forest surroundings",
+    "Overnight stay at Sariska"
+  ],
+  meals: ["Breakfast", "Lunch", "Dinner"]
+},
+{
+  day: 10,
+  route: "Sariska to Jaipur (Departure)",
+  activities: [
+    "Early morning jungle safari at Sariska",
+    "Breakfast & checkout",
+    "Transfer to Jaipur Airport",
+    "Tour ends with amazing memories"
+  ],
+  meals: ["Breakfast", "Lunch"]
+}
+],
+},
 ];
