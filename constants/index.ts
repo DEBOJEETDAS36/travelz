@@ -276,7 +276,7 @@ export const tourCards = [
     season: "WINTER SPECIAL – 2025",
     departure_date: "7th Feb, 2025",
     images: ["/travelz/Andaman/img1.jpg"],
-    // price: ["INR 135727/- + USD 2342 PER PERSON"],
+    price: [],
     route: [
       "Kolkata",
       "Port Blair",
@@ -299,7 +299,7 @@ export const tourCards = [
     season: "WINTER SPECIAL – 2025",
     departure_date: "10th Dec, 2025",
     images: ["/travelz/MP/img1.jpg"],
-    // price: ["INR 135727/- + USD 2342 PER PERSON"],
+    price: [],
     route: [
       "Kolkata",
       "Nagpur",
@@ -325,7 +325,7 @@ export const tourCards = [
     season: "WINTER SPECIAL – 2025",
     departure_date: "3rd Dec, 2025",
     images: ["/travelz/Kutch/img1.jpg"],
-    // price: ["INR 135727/- + USD 2342 PER PERSON"],
+    price: [],
     route: [
       "Kolkata",
       "Ahmedabad",
@@ -348,7 +348,7 @@ export const tourCards = [
     season: "SUMMER SPECIAL – 2025",
     departure_date: "5th Nov, 2025",
     images: ["/travelz/Odisha/img1.jpg"],
-    // price: ["INR 135727/- + USD 2342 PER PERSON"],
+    price: [],
     route: [
       "Kolkata",
       "Kuldiha",
@@ -370,7 +370,7 @@ export const tourCards = [
     season: "WINTER SPECIAL – 2026",
     departure_date: "27th Jan, 2026",
     images: ["/travelz/Rajasthan/img1.jpg"],
-    // price: ["INR 135727/- + USD 2342 PER PERSON"],
+    price: [],
     route: [
       "Kolkata",
       "Bundi",
@@ -1112,7 +1112,7 @@ export const tours = [
       "/travelz/Andaman/img2.jpg",
       "/travelz/Andaman/img3.jpg",
     ],
-    // price: ["INR 135727/- + USD 2342 PER PERSON"],
+    price: [],
     route: [
       "Kolkata",
       "Port Blair",
@@ -1241,7 +1241,7 @@ export const tours = [
       "/travelz/MP/img2.jpg",
       "/travelz/MP/img3.jpg",
     ],
-    // price: ["INR 135727/- + USD 2342 PER PERSON"],
+    price: [],
     route: [
       "Kolkata",
       "Nagpur",
@@ -1395,7 +1395,7 @@ export const tours = [
       "/travelz/Kutch/img2.jpg",
       "/travelz/Kutch/img3.jpg",
     ],
-    // price: ["INR 135727/- + USD 2342 PER PERSON"],
+    price: [],
     route: [
       "Kolkata",
       "Ahmedabad",
@@ -1500,7 +1500,7 @@ export const tours = [
       "/travelz/Odisha/img2.jpg",
       "/travelz/Odisha/img3.jpg",
     ],
-    // price: ["INR 135727/- + USD 2342 PER PERSON"],
+    price: [],
     route: [
       "Kolkata",
       "Kuldiha",
@@ -1619,7 +1619,7 @@ export const tours = [
       "/travelz/Rajasthan/img2.jpg",
       "/travelz/Rajasthan/img3.jpg",
     ],
-    // price: ["INR 135727/- + USD 2342 PER PERSON"],
+    price: [],
     route: [
       "Kolkata",
       "Bundi",
