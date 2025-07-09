@@ -390,6 +390,27 @@ export const tourCards = [
       "Discover the royal charm of Rajasthan on a journey from Kolkata through Bundi, Chittorgarh, and Kumbhalgarh. Explore sacred Nathdwara, marble marvels of Ranakpur, spot leopards in Bera, and soak in Jodhpur’s blue beauty. Unwind in Khimsar, witness cranes in Khichan, and admire Mandawa’s painted havelis.",  
     tags: ["heritage", "rajasthan", "rare", "royal", "palace"],
   },
+  {
+    id: "IIRRFS",
+    tour_name:
+      "SIMPLIPAL",
+    duration: "3 Nights / 4 Days",
+    season: "WINTER SPECIAL – 2025",
+    departure_date: "24th Dec, 2025",
+    images: ["/travelz/Simlipal/img1.jpg"],
+    price: [],
+    route: [
+      "Kolkata",
+      "Kolaghat",
+      "Jhargram",
+      "Simlipal",
+      "Chahala region",
+      "Kolkata"
+    ],
+    description:
+    "Discover the natural wonders of Simlipal with a jungle safari at Chahala range, breathtaking waterfalls like Barehipani, Joranda, Uski, and Asurkal, and explore the tranquil Gurguria orchid research centre surrounded by lush pine forests.",
+    tags: ["nature", "simlipal", "jungle", "wildlife", "waterfall"],
+  },
 ];
 
 export const tours = [
@@ -1749,6 +1770,81 @@ export const tours = [
   ],
   meals: ["Breakfast", "Lunch"]
 }
+],
+},
+{
+    id: "IIRRFS",
+    tour_name: "SIMLIPAL",
+    duration: "3 Nights / 4 Days",
+    season: "WINTER SPECIAL – 2025",
+    departure_date: "24th Dec, 2025",
+    images: [
+      "/travelz/Simlipal/img1.jpg",
+      "/travelz/Simlipal/img2.jpg",
+      "/travelz/Simlipal/img3.jpg",
+    ],
+    price: [],
+    route: [
+      "Kolkata",
+      "Kolaghat",
+      "Jhargram",
+      "Simlipal",
+      "Chahala region",
+      "Kolkata"
+    ],
+    description:
+      "Discover the natural wonders of Simlipal with a jungle safari at Chahala range, breathtaking waterfalls like Barehipani, Joranda, Uski, and Asurkal, and explore the tranquil Gurguria orchid research centre surrounded by lush pine forests.",  
+    itinerary: [
+  {
+    "day": 1,
+    "route": "Kolkata to Simlipal via Jhargram",
+    "activities": [
+      "Early morning pickup from designated spot",
+      "Stop at Kolaghat for freshen up",
+      "Lunch at Jhargram",
+      "Complete formalities at Jashipur range office",
+      "Enter Simlipal Tiger Reserve",
+      "Overnight stay at Kumari resort"
+    ],
+    "meals": ["Breakfast", "Lunch", "Snacks", "Dinner"]
+  },
+  {
+    "day": 2,
+    "route": "Simlipal",
+    "activities": [
+      "Visit Asurkal Waterfalls inside dense forest",
+      "Return to resort for lunch",
+      "Visit Gurguria orchid research centre, Khairi river, and pine forest",
+      "Afternoon jungle safari at Simlipal Tiger Reserve",
+      "Optional cultural dance program by local tribal people",
+      "Overnight stay"
+    ],
+    "meals": ["Breakfast", "Lunch", "Snacks", "Dinner"]
+  },
+  {
+    "day": 3,
+    "route": "Simlipal",
+    "activities": [
+      "Full day jungle excursion",
+      "Visit Barehipani Falls (1308 ft), Joranda Falls (498 ft), Uski waterfalls",
+      "Safari at Chahala region for wildlife sighting",
+      "Picnic lunch inside forest",
+      "Return to resort before sunset and enjoy evening tea",
+      "Overnight stay"
+    ],
+    "meals": ["Breakfast", "Lunch", "Snacks", "Dinner"]
+  },
+  {
+    "day": 4,
+    "route": "Simlipal to Kolkata",
+    "activities": [
+      "Early morning breakfast and checkout",
+      "Bid farewell to Simlipal",
+      "En route lunch",
+      "Tour ends with sweet and cherishable memories"
+    ],
+    "meals": ["Breakfast", "Lunch", "Snacks"]
+  }
 ],
 },
 ];
