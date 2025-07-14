@@ -411,6 +411,31 @@ export const tourCards = [
     "Discover the natural wonders of Simlipal with a jungle safari at Chahala range, breathtaking waterfalls like Barehipani, Joranda, Uski, and Asurkal, and explore the tranquil Gurguria orchid research centre surrounded by lush pine forests.",
     tags: ["nature", "simlipal", "jungle", "wildlife", "waterfall"],
   },
+  {
+    id: "KERRFS",
+    tour_name:
+      "Namdhapa with Mayodian Pass & Anini",
+    duration: "8 Nights / 10 Days",
+    season: "WINTER SPECIAL – 2025",
+    departure_date: "11th Jan, 2026",
+    images: ["/travelz/Namdhapa/img1.jpg"],
+    price: [],
+    route: [
+      "Kolkata",
+      "Dibrugarh",
+      "Miao",
+      "Deban",
+      "Wakro",
+      "Roing",
+      "Anini",
+      "Dri Valley",
+      "Dibrugarh",
+      "Kolkata"
+    ],
+    description:
+    "Discover the untouched wilderness of Namdhapa, from Dibrugarh to Miao and Deban’s dense forests, encounter rare wildlife, explore Mishmi tribal culture in Wakro, and soak in the serene beauty of Roing, Anini, and Dri Valley.",
+    tags: ["nature", "namdhapa", "jungle", "wildlife", "offbeat"],
+  },
 ];
 
 export const tours = [
@@ -1844,6 +1869,138 @@ export const tours = [
       "Tour ends with sweet and cherishable memories"
     ],
     "meals": ["Breakfast", "Lunch", "Snacks"]
+  }
+],
+},
+{
+    id: "KERRFS",
+    tour_name: "Namdhapa with Mayodian Pass & Anini",
+    duration: "8 Nights / 10 Days",
+    season: "WINTER SPECIAL – 2025",
+    departure_date: "11th Jan, 2026",
+    images: [
+      "/travelz/Namdhapa/img1.jpg",
+      "/travelz/Namdhapa/img2.jpg",
+      "/travelz/Namdhapa/img3.jpg",
+    ],
+    price: [],
+    route: [
+      "Kolkata",
+      "Dibrugarh",
+      "Miao",
+      "Deban",
+      "Wakro",
+      "Roing",
+      "Anini",
+      "Dri Valley",
+      "Dibrugarh",
+      "Kolkata",
+    ],
+    description:
+    "Discover the untouched wilderness of Namdhapa, from Dibrugarh to Miao and Deban’s dense forests, encounter rare wildlife, explore Mishmi tribal culture in Wakro, and soak in the serene beauty of Roing, Anini, and Dri Valley.",
+    itinerary: [
+  {
+    "day": 1,
+    "route": "Kolkata to Miao via Dibrugarh",
+    "activities": [
+      "Arrive at Dibrugarh airport or railway station",
+      "Transfer to Miao (5 hr drive) with lunch en route",
+      "Miao — gateway to Namdapha Tiger Reserve",
+      "Explore the small hamlet and surroundings",
+      "Overnight stay at Miao"
+    ],
+    "meals": ["Lunch", "Dinner"]
+  },
+  {
+    "day": 2,
+    "route": "Miao to Deban",
+    "activities": [
+      "After breakfast proceed to Deban Forest Camp",
+      "Lunch at camp",
+      "Jungle hike to spot birds, Hoolock Gibbons & Capped Langur",
+      "Experience raw nature at remote forest camp",
+      "Overnight stay at Deban"
+    ],
+    "meals": ["Breakfast", "Lunch", "Dinner"]
+  },
+  {
+    "day": 3,
+    "route": "Deban to Miao",
+    "activities": [
+      "Breakfast and boat ride across Noa Dihing river",
+      "Jungle trek through dense forest",
+      "Chance to spot rare mammals & birds",
+      "Late lunch, return to Miao",
+      "Enjoy sunset at Noa Dihing river",
+      "Overnight stay at Miao"
+    ],
+    "meals": ["Breakfast", "Lunch", "Dinner"]
+  },
+  {
+    "day": 4,
+    "route": "Miao to Wakro",
+    "activities": [
+      "Transfer to Wakro after breakfast",
+      "Visit Mishmi tribal village",
+      "Experience rich culture & traditions of Mishmi people",
+      "Overnight stay at Wakro"
+    ],
+    "meals": ["Breakfast", "Lunch", "Dinner"]
+  },
+  {
+    "day": 5,
+    "route": "Wakro to Roing",
+    "activities": [
+      "After breakfast, check out and drive to Roing",
+      "En route visit Parashuram Kund",
+      "Lunch at picturesque Tezu",
+      "Check-in at Roing, enjoy sunset from balcony",
+      "Overnight stay at Roing"
+    ],
+    "meals": ["Breakfast", "Lunch", "Dinner"]
+  },
+  {
+    "day": 6,
+    "route": "Roing to Anini",
+    "activities": [
+      "After breakfast, transfer to Anini (6.5 hrs)",
+      "Visit snow-covered Mayodia Pass en route",
+      "Evening at leisure in Anini",
+      "Overnight stay at Anini"
+    ],
+    "meals": ["Breakfast", "Lunch", "Dinner"]
+  },
+  {
+    "day": 7,
+    "route": "Anini – Dri Valley",
+    "activities": [
+      "After breakfast, excursion to Dri Valley",
+      "Explore serene plains & river valley",
+      "Ideal winter spot for picnics & sightseeing",
+      "Overnight stay at Anini"
+    ],
+    "meals": ["Breakfast", "Lunch", "Dinner"]
+  },
+  {
+    "day": 8,
+    "route": "Anini to Roing",
+    "activities": [
+      "After breakfast, check out and return to Roing",
+      "Evening free for leisure",
+      "Overnight stay at Roing"
+    ],
+    "meals": ["Breakfast", "Lunch", "Dinner"]
+  },
+  {
+    "day": 9,
+    "route": "Roing to Dibrugarh",
+    "activities": [
+      "After breakfast, check out from Roing",
+      "Drive to Dibrugarh (3.5 hrs)",
+      "Optional visit to Saraipung Range of Dehing Patkai National Park if time permits",
+      "Tour ends with drop at Dibrugarh Airport"
+    ],
+    "meals": []
   }
 ],
 },
