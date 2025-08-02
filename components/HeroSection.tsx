@@ -74,7 +74,7 @@ const HeroSection = () => {
       </SlideIn>
       <div className="w-full max-w-72 md:max-w-128 md:w-2/5 aspect-square rounded-3xl bg-primary/30 shrink-0 relative z-10 translate-y-8 md:-translate-y-0 rotate-12 md:-translate-x-8">
         <OptimizedImage
-          path="/travelz/Home/home"
+          path="/travelz/home"
           alt="hero"
           quality={100}
           containerClassName="rounded-3xl overflow-hidden z-10 -rotate-12"
